@@ -1,4 +1,10 @@
-<svelte:head><title>gender</title></svelte:head>
+<svelte:head>
+  <title>gender</title>
+  <meta name="og:description" content="a list of ways to contact me, rayne cloudy!">
+  <meta name="og:title" content="gender">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://raynec.dev/gender">
+</svelte:head>
 
 <h1>what the hell is my gender?!</h1>
 <sub>last updated 25th of july, 2025</sub>

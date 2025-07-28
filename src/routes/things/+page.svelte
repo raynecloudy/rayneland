@@ -6,7 +6,13 @@
   }
 </style>
 
-<svelte:head><title>things</title></svelte:head>
+<svelte:head>
+  <title>things</title>
+  <meta name="og:description" content="a complete list of things i've created and shared on the internet, in chronological order!">
+  <meta name="og:title" content="list of things">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://raynec.dev/things">
+</svelte:head>
 
 <h1>rayne's list of things</h1>
 <sub>last updated 13th of july, 2025</sub>

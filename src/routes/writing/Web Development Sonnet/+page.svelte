@@ -1,4 +1,10 @@
-<svelte:head><title>Web Development Sonnet</title></svelte:head>
+<svelte:head>
+  <title>Web Development Sonnet</title>
+  <meta name="og:description" content="a love poem with a computational theme">
+  <meta name="og:title" content="Web Development Sonnet">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://raynec.dev/writing/Web Development Sonnet">
+</svelte:head>
 
 <p><sub><code class="grey">//&nbsp;</code>This poem has syntax found in web development computer programs. To help with reading, I’ve greyed out parts that aren’t intended for speech. I hope you enjoy my geeky love poem :)</sub></p>
 <p><sub><code class="grey">//&nbsp;</code>There's a small chance that my 9th grade English teacher could stumble upon this page. It's me, haha, I didn't plagiarize</sub></p>

@@ -4,6 +4,14 @@
   }
 </script>
 
+<svelte:head>
+  <title>feed</title>
+  <meta name="og:description" content="my RSS feed">
+  <meta name="og:title" content="feed">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://raynec.dev/feed">
+</svelte:head>
+
 <h1>feed</h1>
 {#await getFeed()}
   <p>loading....</p>

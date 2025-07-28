@@ -90,6 +90,7 @@
     outline: var(--outline) !important;
     color: #ffffff;
     user-select: none;
+    display: inline-block;
   }
 
   :global(:is(a, button):is(:focus-visible, :hover)) {
@@ -116,8 +117,12 @@
     line-height: 0.8rem;
   }
 
-  :global(p) {
+  :global(p, li) {
     line-height: 1.5rem;
+  }
+
+  :global(pre) {
+    overflow: auto;
   }
 
   app {
@@ -315,8 +320,12 @@
     margin: 1rem 0;
   }
 
-  :global(:is(main > :not(:has(nav)), dropdown) a, main > a) {
+  :global(:is(:is(main > :not(:has(nav)), dropdown) a, main > a):not(pre code a)) {
     color: #edb1ff;
+  }
+
+  :global(pre code a) {
+    text-decoration: none;
   }
 
   :global(.skip_to:not(:has(:active, :focus-visible))) {
@@ -350,7 +359,7 @@
   }
 
   :global(.grey) {
-    opacity: 0.6;
+    color: #929292;
   }
 
   @keyframes rainbow {
@@ -363,6 +372,11 @@
     }
   }
 </style>
+
+<svelte:head>
+  <meta name="og:locale" content="en_US">
+  <meta name="og:site_name" content="rayne cloudy's website (raynecloudy)">
+</svelte:head>
 
 <app in:fly={{ y: 20 }}>
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
