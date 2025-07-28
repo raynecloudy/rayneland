@@ -27,7 +27,7 @@
 <ul>
   <li>computer programming</li>
   <li>drawing</li>
-  <li>listening to music</li>
+  <li>writing</li>
   <li>making music (rarely)</li>
 </ul>
 <p>the first programming language i learned was python. then i learned javascript and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
@@ -44,7 +44,7 @@
                     <span class="pink">disk:</span> 67.80 gibibytes / 118.24 gibibytes
 
 </code></pre>
-<p>disclaimer: though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloudY.</p>
+<p>disclaimer: though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloud<strong>y</strong>, with a y.</p>
 {#await getSong()}
   <!--  -->
 {:then data}

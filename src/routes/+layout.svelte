@@ -100,7 +100,8 @@
     text-decoration: none;
   }
 
-  :global(img) {
+  :global(img, video) {
+    max-width: 100%;
     user-select: none;
   }
 
@@ -194,7 +195,6 @@
   :global(th) {
     font-style: italic;
     font-weight: unset;
-    opacity: 0.6;
   }
 
   #social_bar {
@@ -260,10 +260,6 @@
 
   :global(:has(> dropdown) :is(a, button)) {
     cursor: help;
-  }
-
-  :global(img) {
-    max-width: 100%;
   }
 
   :global(pages) {
@@ -358,7 +354,7 @@
     text-shadow: none;
   }
 
-  :global(.grey) {
+  :global(.grey, th) {
     color: #929292;
   }
 
@@ -435,6 +431,7 @@
       <nav>
         <ul>
           <li><a href="/">home</a></li>
+          <li><a href="/animations">animations</a></li>
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
           <li><a href="/feed">feed</a></li>
