@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
-    import DropdownClose from "./DropdownClose.svelte";
-    import { fly } from "svelte/transition";
+  import { fly } from "svelte/transition";
+  import DropdownClose from "./DropdownClose.svelte";
 
   let { children } = $props();
 
@@ -51,9 +51,10 @@
     src: url("/fonts/jetbrainsmono/font.ttf");
   }
 
-  /* :root {
-    cursor: url("/cursors/default.png"), auto;
-  } */
+  :root {
+    /* cursor: url("/cursors/default.png"), auto; */
+    --outline: 0.0625rem solid #ffffff;
+  }
 
   :global(body) {
     background-color: #000000;
@@ -82,6 +83,15 @@
     cursor: pointer;
   }
 
+  :global(:is(a, button).action) {
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    line-height: 1;
+    outline: var(--outline) !important;
+    color: #ffffff;
+    user-select: none;
+  }
+
   :global(:is(a, button):is(:focus-visible, :hover)) {
     background-color: #ffffff;
     color: #000000;
@@ -93,9 +103,30 @@
     user-select: none;
   }
 
+  :global(:is(td, th):not(header *)) {
+    outline: var(--outline);
+  }
+
+  :global(code) {
+    font-family: "JetBrains Mono";
+  }
+
+  :global(sub) {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+
+  :global(p) {
+    line-height: 1.5rem;
+  }
+
   app {
     max-width: 50rem;
     width: 100%;
+  }
+
+  header {
+    margin-bottom: 1rem;
   }
 
   #banner {
@@ -197,11 +228,11 @@
     background-color: #000000;
     padding: 2rem;
     border-radius: 1rem;
-    outline: 0.0625rem solid #ffffff;
+    outline: var(--outline);
     min-width: 18rem;
     max-width: 25rem;
     text-align: initial;
-    z-index: 1;
+    z-index: 2;
   }
 
   :global(:is(nav, aside) dropdown) {
@@ -220,6 +251,10 @@
   :global(dropdown h2) {
     margin: 0;
     text-wrap: nowrap;
+  }
+
+  :global(:has(> dropdown) :is(a, button)) {
+    cursor: help;
   }
 
   :global(img) {
@@ -244,26 +279,42 @@
     width: calc(100% - 8rem);
     max-width: calc(100vw - 20rem);
     position: relative;
+    display: flow-root;
   }
 
-  main > div {
+  main > div:has(nav) {
     position: absolute;
     top: 0;
     right: -14rem;
     width: 12rem;
-    height: 100%;
+    min-height: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
   }
   
   main nav {
     width: 8rem;
-    padding: 2rem;
     position: sticky;
     top: 2rem;
-    border-radius: 1rem;
-    outline: 0.0625rem solid #ffffff;
+    background-color: #000000;
+    z-index: 1;
+  }
+  
+  :global(main > div:has(nav) > .block) {
+    position: sticky;
+    top: 2.2rem;
   }
 
-  :global(:is(main > :not(:has(nav)), dropdown) a) {
+  :global(main nav, .block) {
+    padding: 2rem;
+    border-radius: 1rem;
+    outline: var(--outline);
+  }
+
+  :global(:is(main > :not(:has(nav)), dropdown) a, main > a) {
     color: #edb1ff;
   }
 
@@ -297,6 +348,10 @@
     text-shadow: none;
   }
 
+  :global(.grey) {
+    opacity: 0.6;
+  }
+
   @keyframes rainbow {
     0% {
       filter: hue-rotate(0deg);
@@ -307,6 +362,10 @@
     }
   }
 </style>
+
+<svelte:head>
+  <title>rayne cloudy</title>
+</svelte:head>
 
 <app in:fly={{ y: 20 }}>
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
@@ -332,7 +391,7 @@
       </div>
       <div>
         <h1>rayne cloudy</h1>
-        <p>ambitious web developer and software engineer{today.getDate() == 23 && today.getMonth() == 7 ? " (and the birthday girl!)" : ""}.</p>
+        <p>ambitious teenage web developer{today.getDate() == 23 && today.getMonth() == 7 ? " (and the birthday girl!)" : "."}</p>
       </div>
       <aside>
         <table>
@@ -365,14 +424,16 @@
       <nav>
         <ul>
           <li><a href="/">home</a></li>
+          <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
           <li><a href="/gender">gender</a></li>
-          <li><a href="https://toyhou.se/34189208./gallery">rayne gallery</a></li>
+          <li><a href="/guestbook">guestbook</a></li>
+          <li><a href="/things">things</a></li>
+          <li><a href="/writing">writing</a></li>
         </ul>
-        <img src="/blinky.gif" alt="LGBTQ+ supportive">
       </nav>
     </div>
     {@render children?.()}
-    <span class="skip_to"><button aria-label="skip to" onclick={() => tabTo("a, button")}>back to top</button></span>
+    <p><span class="skip_to"><button aria-label="skip to" onclick={() => tabTo("a, button")}>back to top</button></span></p>
   </main>
 </app>

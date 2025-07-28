@@ -1,8 +1,6 @@
-<title>donators</title>
-
 <h1>donators</h1>
 <p>this page contains a list of people who have donated money to me via patreon. i'm so thankful for everyone who has given me real monies!! you have idea how much it means to me &lt;33</p>
-<p>if you want to donate to me, check out my patreon products and/or memberships!</p>
+<p>if you want to donate to me, check out my patreon <a href="https://patreon.com/raynecloudy/shop">products</a> and/or <a href="https://patreon.com/raynecloudy/membership">memberships</a>!</p>
 <ul>
   <li class="rainbow_donator"><a href="https://dumorando.com">dumorando</a></li>
   <li><a href="https://samv.me">shock59</a></li>
