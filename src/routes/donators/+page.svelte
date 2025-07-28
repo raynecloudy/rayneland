@@ -1,3 +1,5 @@
+<svelte:head><title>donators</title></svelte:head>
+
 <h1>donators</h1>
 <p>this page contains a list of people who have donated money to me via patreon. i'm so thankful for everyone who has given me real monies!! you have idea how much it means to me &lt;33</p>
 <p>if you want to donate to me, check out my patreon <a href="https://patreon.com/raynecloudy/shop">products</a> and/or <a href="https://patreon.com/raynecloudy/membership">memberships</a>!</p>

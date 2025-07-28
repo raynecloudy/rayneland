@@ -1,3 +1,5 @@
+<svelte:head><title>contact</title></svelte:head>
+
 <h1>contact</h1>
 <p>woahh, you want to contact me! that's pretty cool!! here are some possible methods of reaching out to me:</p>
 <ul>

@@ -2,6 +2,8 @@
   import Oneko from "lots-o-nekos";
 </script>
 
+<svelte:head><title>not found</title></svelte:head>
+
 <h1>404</h1>
 <p>this page could not be located!</p>
 <p><button onclick={() => {

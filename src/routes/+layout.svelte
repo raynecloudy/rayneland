@@ -363,10 +363,6 @@
   }
 </style>
 
-<svelte:head>
-  <title>rayne cloudy</title>
-</svelte:head>
-
 <app in:fly={{ y: 20 }}>
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
   <header>

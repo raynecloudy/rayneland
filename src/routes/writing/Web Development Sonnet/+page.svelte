@@ -1,3 +1,5 @@
+<svelte:head><title>Web Development Sonnet</title></svelte:head>
+
 <p><sub><code class="grey">//&nbsp;</code>This poem has syntax found in web development computer programs. To help with reading, I’ve greyed out parts that aren’t intended for speech. I hope you enjoy my geeky love poem :)</sub></p>
 <p><sub><code class="grey">//&nbsp;</code>There's a small chance that my 9th grade English teacher could stumble upon this page. It's me, haha, I didn't plagiarize</sub></p>
 

@@ -1,3 +1,5 @@
+<svelte:head><title>gender</title></svelte:head>
+
 <h1>what the hell is my gender?!</h1>
 <sub>last updated 25th of july, 2025</sub>
 <p>if you know me personally, you probably know my pronouns and gender identity change a LOT. i'm so sorry, i can only imagine the pain of trying to keep up TwT</p>

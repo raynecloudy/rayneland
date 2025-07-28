@@ -1,3 +1,5 @@
+<svelte:head><title>scope</title></svelte:head>
+
 <h1>scope</h1>
 <p>
   rayne is not defined in this scope<br>

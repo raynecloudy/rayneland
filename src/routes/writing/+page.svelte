@@ -1,3 +1,5 @@
+<svelte:head><title>writing</title></svelte:head>
+
 <h1>writing</h1>
 <p>one of my lesser-known hobbies is writing! i actually really enjoy writing lol!!</p>
 <h2>poetry</h2>
