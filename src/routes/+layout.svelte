@@ -312,6 +312,7 @@
     padding: 2rem;
     border-radius: 1rem;
     outline: var(--outline);
+    margin: 1rem 0;
   }
 
   :global(:is(main > :not(:has(nav)), dropdown) a, main > a) {
@@ -422,6 +423,7 @@
           <li><a href="/">home</a></li>
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
+          <li><a href="/feed">feed</a></li>
           <li><a href="/gender">gender</a></li>
           <li><a href="/guestbook">guestbook</a></li>
           <li><a href="/things">things</a></li>
