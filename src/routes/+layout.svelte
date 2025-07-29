@@ -93,7 +93,7 @@
     display: inline-block;
   }
 
-  :global(:is(a, button):is(:focus-visible, :hover)) {
+  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))) {
     background-color: #ffffff;
     color: #000000;
     outline: none;
@@ -165,6 +165,7 @@
     display: block;
     border-radius: 2rem;
     background-color: unset;
+    outline: none;
   }
 
   #pfp:has(button:focus-visible) {
@@ -317,7 +318,7 @@
   }
 
   :global(:is(:is(main > :not(:has(nav)), dropdown) a, main > a):not(pre code a)) {
-    color: #edb1ff;
+    color: #ffa4eb;
   }
 
   :global(pre code a) {
@@ -432,6 +433,7 @@
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/animations">animations</a></li>
+          <li><a href="/art">art</a></li>
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
           <li><a href="/feed">feed</a></li>

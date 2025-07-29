@@ -31,20 +31,19 @@
   <li>making music (rarely)</li>
 </ul>
 <p>the first programming language i learned was python. then i learned javascript and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
-<pre><code>
-<span class="grey">rayne@raynetop ~/ $ <a href="https://github.com/netthier/owofetch-rs">owofetch</a></span>
-
-  <span class="blue">      /\          </span><span class="pink">wayne</span>@<span class="pink">waynetop</span>
-  <span class="blue">     /  \         </span><span class="pink">os:</span> awch winux
-  <span class="blue">    /\   \        </span><span class="pink">kewnew</span> 6.15.8-awch1-1
-  <span class="blue">   /  ^w^ \       </span><span class="pink">memowy:</span> 7256.69 megabytes / 14561.48 megabytes
+<pre><code><span class="grey">rayne@raynetop ~/ $ <a href="https://github.com/netthier/owofetch-rs">owofetch</a></span>                                          
+                                                                      
+  <span class="blue">      /\          </span><span class="pink">wayne</span>@<span class="pink">waynetop</span>                                    
+  <span class="blue">     /  \         </span><span class="pink">os:</span> awch winux                                    
+  <span class="blue">    /\   \        </span><span class="pink">kewnew</span> 6.15.8-awch1-1                             
+  <span class="blue">   /  ^w^ \       </span><span class="pink">memowy:</span> 7256.69 megabytes / 14561.48 megabytes    
   <span class="blue">  /   ,,   \      </span><span class="pink">cpu:</span>  amd athwon siwvew 3050u with wadeon gwaphics
-  <span class="blue"> /   |  |  -\     </span><span class="pink">sheww:</span> /usw/bin/bash
-  <span class="blue">/_-''    ''-_\    </span><span class="pink">tewminaw:</span>  konsowe
-                    <span class="pink">disk:</span> 67.80 gibibytes / 118.24 gibibytes
-
-</code></pre>
-<p>disclaimer: though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloud<strong>y</strong>, with a y.</p>
+  <span class="blue"> /   |  |  -\     </span><span class="pink">sheww:</span> /usw/bin/bash                              
+  <span class="blue">/_-''    ''-_\    </span><span class="pink">tewminaw:</span>  konsowe                                
+                    <span class="pink">disk:</span> 67.80 gibibytes / 118.24 gibibytes          </code></pre>
+<p><a href="https://github.com/raynecloudy/#js-contribution-activity-description"><img src="https://ghchart.rshah.org/raynecloudy" alt="raynecloudy's github contribution graph" style="filter: invert();"></a></p>
+<p>i hope you enjoy your time on my website and find some cool stuff! i've put a lot of effort into making this a beautiful website &lt;3</p>
+<p>though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloud<strong>y</strong>, with a y.</p>
 {#await getSong()}
   <!--  -->
 {:then data}
@@ -60,7 +59,6 @@
         <img src="{data.track.image[3]["#text"]}" alt="art for {data.track.name}">
       </div>
     </pages>
-    <sub><a href="https://github.com/biancarosa/lastfm-last-played">@biancarosa/lastfm-last-played</a></sub>
   </div>
 {:catch err: Error}
   <p>{err.message}</p>
