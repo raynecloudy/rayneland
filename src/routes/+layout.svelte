@@ -420,11 +420,13 @@
       </aside>
     </info>
     <div id="social_bar">
-      <a href="https://bsky.app/profile/raynec.dev"><img src="/socials/bsky-white.svg" alt="bluesky"></a>
-      <a href="https://discord.gg/mD6metDHNE"><img src="/socials/Discord-Symbol-White.svg" alt="discord"></a>
-      <a href="https://github.com/raynecloudy"><img src="/socials/GitHub_Invertocat_Light.svg" alt="github"></a>
-      <a href="https://patreon.com/raynecloudy"><img src="/socials/PATREON_SYMBOL_1_WHITE_RGB.svg" alt="patreon"></a>
-      <a href="https://toyhou.se/raynecloudy"><img src="/socials/Toyhouse.svg" alt="toyhouse"><img src="/new.gif" alt="new" class="new"></a>
+      <a href="https://artfight.net/~raynecloudy" title="art fight"><img src="/socials/Art Fight.svg" alt="art fight"></a>
+      <a href="https://bsky.app/profile/raynec.dev" title="bluesky"><img src="/socials/bsky-white.svg" alt="bluesky"></a>
+      <a href="https://discord.gg/mD6metDHNE" title="discord server"><img src="/socials/Discord-Symbol-White.svg" alt="discord"></a>
+      <a href="https://github.com/raynecloudy" title="github"><img src="/socials/GitHub_Invertocat_Light.svg" alt="github"></a>
+      <a href="https://patreon.com/raynecloudy" title="patreon"><img src="/socials/PATREON_SYMBOL_1_WHITE_RGB.svg" alt="patreon"></a>
+      <a href="https://toyhou.se/raynecloudy" title="toyhouse"><img src="/socials/Toyhouse.svg" alt="toyhouse"><img src="/new.gif" alt="new" class="new"></a>
+      <a href="https://youtube.com/@raynecloudy" title="youtube"><img src="/socials/YouTube.svg" alt="youtube"></a>
     </div>
   </header>
   <main>
