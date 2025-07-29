@@ -1,6 +1,6 @@
 <svelte:head>
   <title>gender</title>
-  <meta name="og:description" content="a list of ways to contact me, rayne cloudy!">
+  <meta name="og:description" content="if you know me personally, you probably know my pronouns and gender identity change a LOT. this page is to help you understand my gender">
   <meta name="og:title" content="gender">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/gender">
