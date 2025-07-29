@@ -9,7 +9,7 @@
 <svelte:head>
   <title>things</title>
   <meta name="og:description" content="a complete list of things i've created and shared on the internet, in chronological order!">
-  <meta name="og:title" content="list of things">
+  <meta name="og:title" content="rayne's list of things">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/things">
 </svelte:head>
