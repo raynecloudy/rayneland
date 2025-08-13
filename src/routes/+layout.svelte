@@ -53,6 +53,7 @@
 
   :root {
     /* cursor: url("/cursors/default.png"), auto; */
+    --disabled: #929292;
     --outline: 0.0625rem solid #ffffff;
   }
 
@@ -80,6 +81,9 @@
     padding: 0;
     margin: 0;
     /* cursor: url("/cursors/interact.png"), auto; */
+  }
+
+  :global(:is(a, button):not(:disabled)) {
     cursor: pointer;
   }
 
@@ -93,11 +97,16 @@
     display: inline-block;
   }
 
-  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))) {
+  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
     background-color: #ffffff;
     color: #000000;
     outline: none;
     text-decoration: none;
+  }
+
+  :global(:is(a, button):is(:disabled, [inert=""])) {
+    color: var(--disabled);
+    outline-color: var(--disabled) !important;
   }
 
   :global(img, video) {
@@ -261,6 +270,7 @@
 
   :global(:has(> dropdown) :is(a, button)) {
     cursor: help;
+    user-select: initial;
   }
 
   :global(pages) {
@@ -356,7 +366,7 @@
   }
 
   :global(.grey, th) {
-    color: #929292;
+    color: var(--disabled);
   }
 
   @keyframes rainbow {
@@ -436,6 +446,7 @@
           <li><a href="/">home</a></li>
           <li><a href="/animations">animations</a></li>
           <li><a href="/art">art</a></li>
+          <li><a href="/commissions">commissions</a></li>
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
           <li><a href="/feed">feed</a></li>

@@ -10,6 +10,6 @@
 <p>i rarely animate. but when i do it's pretty chill, you know?</p>
 <h2>boulder</h2>
 <p>i made this in september 2021. bad art. i do like the lip sync though</p>
-<video src="https://stuff.raynec.dev/boulder.mp4" controls>
+<video src="/boulder.mp4" controls>
   <track default kind="captions" srclang="en" src="/boulder.vtt">
 </video>
