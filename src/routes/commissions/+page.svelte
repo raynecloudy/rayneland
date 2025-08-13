@@ -68,6 +68,14 @@
   }
 </style>
 
+<svelte:head>
+  <title>commissions</title>
+  <meta name="og:description" content="art commission info!!">
+  <meta name="og:title" content="commissions">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://raynec.dev/commissions">
+</svelte:head>
+
 {#if !open}
   <div class="block">
     commissions are currently closed. check back later!

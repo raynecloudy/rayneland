@@ -1,7 +1,7 @@
 <svelte:head>
-  <title>animation</title>
+  <title>animations</title>
   <meta name="og:description" content="animations made by me!">
-  <meta name="og:title" content="animation">
+  <meta name="og:title" content="animations">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/animations">
 </svelte:head>
