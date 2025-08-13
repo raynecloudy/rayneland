@@ -207,7 +207,7 @@
           }} disabled={chosenOptions.some((chosenOption) => item.group === chosenOption.group && item.group !== 0)}><b>${item.price}</b> - {item.name}</button></li>
         {/each}
       </ul>
-      <a href="https://mail.google.com/mail/u/0/?tf=cm&body={encodeURIComponent(`I'm interested in purchasing a commission from you.\n\nMy order:\n${(() => {
+      <a href="mailto:therealraynecloudy@gmail.com?subject=Art Commission Request&body={encodeURIComponent(`I'm interested in purchasing a commission from you.\n\nMy order:\n${(() => {
         let list = "";
         const chosen = chosenOptions.toSorted((a, b) => {
           if (a.name < b.name) return -1;

@@ -97,6 +97,11 @@
     display: inline-block;
   }
 
+  :global(.action-bar) {
+    display: flex;
+    gap: 0.6rem;
+  }
+
   :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
     background-color: #ffffff;
     color: #000000;
