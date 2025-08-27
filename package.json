@@ -23,6 +23,6 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
-		"lots-o-nekos": "^2.5.1"
+		"lots-o-nekos": "^3.0.0"
 	}
 }

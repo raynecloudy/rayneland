@@ -1,5 +1,5 @@
 <script>
-  import Oneko from "lots-o-nekos";
+  import { Oneko } from "lots-o-nekos";
 </script>
 
 <svelte:head><title>not found</title></svelte:head>
@@ -15,4 +15,4 @@
   window.addEventListener("mousemove", (e) => {
     oneko.setTarget(e.clientX, e.clientY);
   });
-}} class="action">add cat</button></p>
+}} class="action" style:visible={Oneko.canInitialize()}>add cat</button></p>
