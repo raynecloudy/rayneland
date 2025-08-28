@@ -11,7 +11,7 @@
   let today = $state(new Date());
 
   const birthdate = 1251010800000;
-  const birthday = 1755932400000;
+  const birthday = 1787468400000;
 
   let age: number = $state(0);
   let distanceToBirthday: number = $state(0);

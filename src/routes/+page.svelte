@@ -4,11 +4,7 @@
 
 <style>
   .blue {
-    color: #88ddff;
-  }
-
-  .pink {
-    color: #ff87d7;
+    color: #cdb2ff;
   }
 </style>
 
@@ -31,16 +27,56 @@
   <li>making music (rarely)</li>
 </ul>
 <p>the first programming language i learned was python. then i learned javascript and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
-<pre><code><span class="grey">rayne@raynetop ~/ $ <a href="https://github.com/netthier/owofetch-rs">owofetch</a></span>                                          
-                                                                      
-  <span class="blue">      /\          </span><span class="pink">wayne</span>@<span class="pink">waynetop</span>                                    
-  <span class="blue">     /  \         </span><span class="pink">os:</span> awch winux                                    
-  <span class="blue">    /\   \        </span><span class="pink">kewnew</span> 6.15.8-awch1-1                             
-  <span class="blue">   /  ^w^ \       </span><span class="pink">memowy:</span> 7256.69 megabytes / 14561.48 megabytes    
-  <span class="blue">  /   ,,   \      </span><span class="pink">cpu:</span>  amd athwon siwvew 3050u with wadeon gwaphics
-  <span class="blue"> /   |  |  -\     </span><span class="pink">sheww:</span> /usw/bin/bash                              
-  <span class="blue">/_-''    ''-_\    </span><span class="pink">tewminaw:</span>  konsowe                                
-                    <span class="pink">disk:</span> 67.80 gibibytes / 118.24 gibibytes          </code></pre>
+<pre style:text-align="center"><code class="blue">
+                   -`                
+                 .o+`                
+                `ooo/                
+               `+oooo:               
+              `+oooooo:              
+              -+oooooo+:             
+            `/:-:++oooo+:            
+           `/++++/+++++++:           
+          `/++++++++++++++:          
+         `/+++ooooooooooooo/`        
+        ./ooosssso++osssssso+`       
+       .oossssso-````/ossssss+`      
+      -osssssso.      :ssssssso.     
+     :osssssss/        osssso+++.    
+    /ossssssss/        +ssssooo/-    
+  `/ossssso+/:-        -:/+osssso+-  
+ `+sso+:-`                 `.-/+oso: 
+`++:.                           `-/+/
+.`                                 `/
+</code></pre>
+<pre><code>
+<span class="blue">rayne</span>@<span class="blue">raynespc</span>
+--------------
+<span class="blue">OS</span>: Arch Linux x86_64
+<span class="blue">Host</span>: Inspiron 15 3535 (1.20.0)
+<span class="blue">Kernel</span>: Linux 6.16.3-arch1-1
+<span class="blue">Uptime</span>: 10 mins
+<span class="blue">Packages</span>: 882 (pacman)
+<span class="blue">Shell</span>: bash 5.3.3
+<span class="blue">Display (HP VH240a)</span>: 1920x1080 @ 60 Hz in 24" [External]
+<span class="blue">Display (BOE09E6)</span>: 1920x1080 @ 60 Hz in 16" [Built-in] *
+<span class="blue">DE</span>: KDE Plasma 6.4.4
+<span class="blue">WM</span>: KWin (Wayland)
+<span class="blue">WM Theme</span>: Breeze
+<span class="blue">Theme</span>: Breeze (Dark) [Qt], Breeze-Dark [GTK2], Breeze [GTK3]
+<span class="blue">Icons</span>: breeze-dark [Qt], breeze-dark [GTK2/3/4]
+<span class="blue">Font</span>: Noto Sans (10pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
+<span class="blue">Cursor</span>: breeze (24px)
+<span class="blue">Terminal</span>: konsole 25.8.0
+<span class="blue">CPU</span>: AMD Ryzen 7 7730U (16) @ 4.55 GHz
+<span class="blue">GPU</span>: AMD Barcelo [Integrated]
+<span class="blue">Memory</span>: 4.35 GiB / 14.97 GiB (29%)
+<span class="blue">Swap</span>: 0 B / 4.00 GiB (0%)
+<span class="blue">Disk (/)</span>: 23.94 GiB / 467.40 GiB (5%) - ext4
+<span class="blue">Local IP (wlp2s0)</span>: 192.168.68.98/22
+<span class="blue">Battery (0x4A,0x35,0x35,0x37,0x00,0x00,0x00)</span>: 97% [Charging, AC Connected]
+<span class="blue">Locale</span>: en_US.UTF-8
+
+</code></pre>
 <p><a href="https://github.com/raynecloudy/#js-contribution-activity-description"><img src="https://ghchart.rshah.org/raynecloudy" alt="raynecloudy's github contribution graph" style="filter: invert();"></a></p>
 <p>i hope you enjoy your time on my website and find some cool stuff! i've put a lot of effort into making this a beautiful website &lt;3</p>
 <p>though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloud<strong>y</strong>, with a y.</p>
