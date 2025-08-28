@@ -54,27 +54,17 @@
 <span class="blue">OS</span>: Arch Linux x86_64
 <span class="blue">Host</span>: Inspiron 15 3535 (1.20.0)
 <span class="blue">Kernel</span>: Linux 6.16.3-arch1-1
-<span class="blue">Uptime</span>: 10 mins
 <span class="blue">Packages</span>: 882 (pacman)
 <span class="blue">Shell</span>: bash 5.3.3
 <span class="blue">Display (HP VH240a)</span>: 1920x1080 @ 60 Hz in 24" [External]
 <span class="blue">Display (BOE09E6)</span>: 1920x1080 @ 60 Hz in 16" [Built-in] *
 <span class="blue">DE</span>: KDE Plasma 6.4.4
-<span class="blue">WM</span>: KWin (Wayland)
-<span class="blue">WM Theme</span>: Breeze
-<span class="blue">Theme</span>: Breeze (Dark) [Qt], Breeze-Dark [GTK2], Breeze [GTK3]
-<span class="blue">Icons</span>: breeze-dark [Qt], breeze-dark [GTK2/3/4]
-<span class="blue">Font</span>: Noto Sans (10pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
-<span class="blue">Cursor</span>: breeze (24px)
 <span class="blue">Terminal</span>: konsole 25.8.0
 <span class="blue">CPU</span>: AMD Ryzen 7 7730U (16) @ 4.55 GHz
 <span class="blue">GPU</span>: AMD Barcelo [Integrated]
 <span class="blue">Memory</span>: 4.35 GiB / 14.97 GiB (29%)
 <span class="blue">Swap</span>: 0 B / 4.00 GiB (0%)
 <span class="blue">Disk (/)</span>: 23.94 GiB / 467.40 GiB (5%) - ext4
-<span class="blue">Local IP (wlp2s0)</span>: 192.168.68.98/22
-<span class="blue">Battery (0x4A,0x35,0x35,0x37,0x00,0x00,0x00)</span>: 97% [Charging, AC Connected]
-<span class="blue">Locale</span>: en_US.UTF-8
 
 </code></pre>
 <p><a href="https://github.com/raynecloudy/#js-contribution-activity-description"><img src="https://ghchart.rshah.org/raynecloudy" alt="raynecloudy's github contribution graph" style="filter: invert();"></a></p>
