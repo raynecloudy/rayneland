@@ -15,4 +15,4 @@
   window.addEventListener("mousemove", (e) => {
     oneko.setTarget(e.clientX, e.clientY);
   });
-}} class="action" style:visible={Oneko.canInitialize()}>add cat</button></p>
+}} class="action" disabled={Oneko.canInitialize()}>add cat</button></p>
