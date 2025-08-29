@@ -24,3 +24,7 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
+
+User-agent: *
+Disallow: /writing
+Disallow: stuff.raynec.dev/
