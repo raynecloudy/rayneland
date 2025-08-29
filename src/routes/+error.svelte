@@ -1,5 +1,12 @@
-<script>
+<script lang="ts">
   import { Oneko } from "lots-o-nekos";
+  import { onMount } from "svelte";
+
+  let canInitialize: boolean = $state(false);
+
+  onMount(() => {
+    canInitialize = Oneko.canInitialize();
+  });
 </script>
 
 <svelte:head><title>not found</title></svelte:head>
@@ -15,4 +22,4 @@
   window.addEventListener("mousemove", (e) => {
     oneko.setTarget(e.clientX, e.clientY);
   });
-}} class="action" disabled={Oneko.canInitialize()}>add cat</button></p>
+}} class="action" disabled={!canInitialize}>add cat</button></p>
