@@ -402,13 +402,7 @@
           <img src="/profile.png" alt="rayne cloudy">
         </button>
         <dropdown bind:this={profileCreditDropdown}>
-          <p>this art of my character <a href="https://toyhou.se/34189208">rayne</a> was made by my cousin, finny! here's her socials that you should check out!!:</p>
-          <ul>
-            <li><a href="https://artfight.net/~Finnywinnny">art fight</a> (Finnywinnny)</li>
-            <li><a href="https://youtube.com/@Bluebirdbuttercup">youtube</a> (Bluebirdbuttercup)</li>
-          </ul>
-          <p>here's the full art piece as well!!</p>
-          <img src="/finny_art.png" alt="full art piece">
+          <p>this art of my character <a href="https://toyhou.se/34189208">rayne</a> was made by <a href="https://toyhou.se/stickthelanding">stickthelanding</a>!!</p>
           <DropdownClose />
         </dropdown>
       </div>
