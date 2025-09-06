@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import DropdownClose from "./DropdownClose.svelte";
+  import { pronouns } from "$lib";
 
   let { children } = $props();
 
@@ -416,7 +417,7 @@
             <tr><th>pronouns</th><th>age</th></tr>
           </thead>
           <tbody>
-            <tr><td><a href="/gender">she/they/xe</a></td><td><button onclick={() => {
+            <tr><td><a href="/gender">{pronouns}</a></td><td><button onclick={() => {
               birthdayDropdown.classList.toggle("show");
             }}>{age}</button><dropdown bind:this={birthdayDropdown}>
               <h2>birthday tracker</h2>
@@ -450,8 +451,8 @@
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
           <li><a href="/feed">feed</a></li>
-          <li><a href="/gender">gender</a></li>
           <li><a href="/guestbook">guestbook</a></li>
+          <li><a href="/gender">queer identity</a></li>
           <li><a href="/things">things</a></li>
           <li><a href="/writing">writing</a></li>
         </ul>
