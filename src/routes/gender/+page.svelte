@@ -46,12 +46,12 @@
 <pages>
   <div>
     <p>right now, i identify as <strong>unlabeled</strong>. this means i don't feel any personal attraction towards a specific label (such as <i>transfeminine</i> or <i>demiboy</i>).</p>
-    <img src="/lgbtq/unlabeled.svg" alt="unlabeled flag">
   </div>
   <div>
     <p>as for gender <i>expression,</i> i identify as <strong>leaning feminine</strong>. i align myself to present feminine traits, like walking more femininely, wearing "girly" clothes, et cetera.</p>
   </div>
 </pages>
+<img src="/lgbtq/unlabeled.svg" alt="unlabeled flag">
 <!-- <p><img src="/geneder_idnentely.png" alt="keeping up with rayne's gender identity"></p> -->
 <p><img src="/forgot_gender.png" alt="rayne cloudy forgets her gender"></p>
 <h2>sexuality</h2>
