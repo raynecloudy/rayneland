@@ -446,7 +446,8 @@
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/animations">animations</a></li>
-          <li><a href="/art">art</a></li>
+          <li><a href="/art">art</a> ↗</li>
+          <li><a href="https://toyhou.se/raynecloudy/characters">characters</a> ↗</li>
           <li><a href="/commissions">commissions</a></li>
           <li><a href="/contact">contact</a></li>
           <li><a href="/donators">donators</a></li>
