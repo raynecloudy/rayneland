@@ -8,6 +8,12 @@
 
 <h1>animations</h1>
 <p>i rarely animate. but when i do it's pretty chill, you know?</p>
+<h2>GAME NIGHT!</h2>
+<p>mass art fight 2025 attack on <a href="https://artfight.net/~stickthelanding">stickthelanding</a>!!</p>
+<img src="/game_night.gif" alt="GAME NIGHT!">
+<h2>mov spinny</h2>
+<p>made for art fight 2025. character is my <a href="https://artfight.net/~Man-o-Valor">friend</a>'s persona!</p>
+<img src="/mov_spinny.gif" alt="mov spinny">
 <h2>boulder</h2>
 <p>i made this in september 2021. bad art. i do like the lip sync though</p>
 <video src="/boulder.mp4" controls>
