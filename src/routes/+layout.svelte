@@ -3,8 +3,9 @@
   import { fly } from "svelte/transition";
   import DropdownClose from "./DropdownClose.svelte";
   import { pronouns } from "$lib";
+  import type { LayoutProps } from "./$types";
 
-  let { children } = $props();
+  let { children, data }: LayoutProps = $props();
 
   let birthdayDropdown: HTMLElement;
   let profileCreditDropdown: HTMLElement;
@@ -371,7 +372,7 @@
     text-shadow: none;
   }
 
-  :global(.grey, th) {
+  :global(.grey, th, footer) {
     color: var(--disabled);
   }
 
@@ -460,6 +461,12 @@
       </nav>
     </div>
     {@render children?.()}
+    <footer>
+      made with love by rayne<br>
+      {#if data.commitTimestamp}
+        website last updated {data.commitTimestamp.getDay()}{[undefined, "st", "nd", "rd"][parseInt(data.commitTimestamp.getDay().toString().charAt(data.commitTimestamp.getDay().toString().length - 1))] ?? "th"} of {["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"][data.commitTimestamp.getMonth()]}, {data.commitTimestamp.getFullYear()}
+      {/if}
+    </footer>
     <p><span class="skip_to"><button aria-label="skip to" onclick={() => tabTo("a, button")}>back to top</button></span></p>
   </main>
 </app>
