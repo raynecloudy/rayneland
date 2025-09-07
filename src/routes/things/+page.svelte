@@ -15,7 +15,7 @@
 </svelte:head>
 
 <h1>rayne's list of things</h1>
-<sub>last updated 13th of july, 2025</sub>
+<sub>last updated 6th of september, 2025</sub>
 <p>a complete list of things i've created and shared on the internet, in chronological order!</p>
 <table>
   <thead>
