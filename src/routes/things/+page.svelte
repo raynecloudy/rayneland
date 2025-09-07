@@ -29,6 +29,78 @@
   <tbody>
     <tr><td colspan="4">2025 v</td></tr>
     <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/106770249">rayne meowdy</a></td>
+      <td>art</td>
+      <td>i got a little too silly</td>
+    </tr>
+    <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/106732778">memory lane</a></td>
+      <td>art</td>
+      <td>nostalgia rush</td>
+    </tr>
+    <tr>
+      <td>aug 2025</td>
+      <td><a href="https://toyhou.se/~images/106400031">rayne candy</a></td>
+      <td>art</td>
+      <td>somebody said my art looked like candy</td>
+    </tr>
+    <tr>
+      <td>aug 2025</td>
+      <td><a href="https://toyhou.se/~images/106308855">she is NOT listening!!</a></td>
+      <td>art</td>
+      <td>bored</td>
+    </tr>
+    <tr>
+      <td>aug 2025</td>
+      <td><a href="https://toyhou.se/~images/106276920">rayne 3D model</a></td>
+      <td>art</td>
+      <td>for fun!! haha it's silly</td>
+    </tr>
+    <tr>
+      <td>aug 2025</td>
+      <td><a href="https://toyhou.se/~images/105849953">winky face</a></td>
+      <td>art</td>
+      <td>wanted new profile picture</td>
+    </tr>
+    <tr>
+      <td>aug 2025</td>
+      <td><a href="https://toyhou.se/~images/105287691">breakaway!</a></td>
+      <td>art</td>
+      <td>i was under stress</td>
+    </tr>
+    <tr>
+      <td>jul 2025</td>
+      <td><a href="https://toyhou.se/~images/104124666">bled out</a></td>
+      <td>art</td>
+      <td>wanted to draw lore</td>
+    </tr>
+    <tr>
+      <td>jul 2025</td>
+      <td><a href="https://toyhou.se/~images/104113209">TDC cast</a></td>
+      <td>art</td>
+      <td>wanted to draw lore</td>
+    </tr>
+    <tr>
+      <td>jul 2025</td>
+      <td><a href="https://toyhou.se/~images/104108985">girls kissing</a></td>
+      <td>art</td>
+      <td>:3</td>
+    </tr>
+    <tr>
+      <td>jul 2025</td>
+      <td><a href="https://toyhou.se/~images/104108932">kemonomimi rayne</a></td>
+      <td>art</td>
+      <td>i was feeling silly</td>
+    </tr>
+    <tr>
+      <td>jul 2025</td>
+      <td><a href="https://toyhou.se/~images/104096101">cassie</a></td>
+      <td>art</td>
+      <td>wanted new character</td>
+    </tr>
+    <tr>
       <td>jul 2025</td>
       <td><a href="https://stuff.raynec.dev/art/2025/GAME NIGHT!.gif">GAME NIGHT!</a></td>
       <td>art</td>
@@ -87,6 +159,12 @@
       <td><a href="https://stuff.raynec.dev/art/2025/comet.png">comet</a></td>
       <td>art</td>
       <td>art fight attack</td>
+    </tr>
+    <tr>
+      <td>jun 2025</td>
+      <td><a href="https://toyhou.se/~images/104112049">rayne sketch</a></td>
+      <td>art</td>
+      <td>art fight practice</td>
     </tr>
     <tr>
       <td>jun 2025</td>
