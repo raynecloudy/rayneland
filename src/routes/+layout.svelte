@@ -462,7 +462,6 @@
     </div>
     {@render children?.()}
     <footer>
-      made with love by rayne<br>
       {#if data.commitTimestamp}
         website last updated {data.commitTimestamp.getDay()}{[undefined, "st", "nd", "rd"][parseInt(data.commitTimestamp.getDay().toString().charAt(data.commitTimestamp.getDay().toString().length - 1))] ?? "th"} of {["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"][data.commitTimestamp.getMonth()]}, {data.commitTimestamp.getFullYear()}
       {/if}
