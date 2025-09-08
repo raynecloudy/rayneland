@@ -100,7 +100,6 @@
       <li class="preferred">no honorific</li>
       <li class="preferred">ms.</li>
       <li class="preferred">mx.</li>
-      <li class="ok">frau</li>
       <li class="no">mr.</li>
       <li class="no">mrs.</li>
       <li class="no">sir</li>
