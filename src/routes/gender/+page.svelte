@@ -14,7 +14,7 @@
 </svelte:head>
 
 <h1>rayne cloudy's queer identity</h1>
-<p><sub>last updated 6th of september, 2025</sub></p>
+<p><sub>last updated 21st of september, 2025</sub></p>
 <div>
   <button onclick={() => {
     tldrDropdown.classList.toggle("show");
