@@ -126,10 +126,10 @@
   <div>
     <h3>pronouns</h3>
     <ul>
-      <li class="preferred">she/her</li>
+      <li class="ok">he/him</li>
+      <li class="ok">she/her</li>
       <li class="ok">they/them</li>
       <li class="ok">xe/xem</li>
-      <li class="no">he/him</li>
       <li class="no">it/its</li>
     </ul>
     <h3>compliments</h3>

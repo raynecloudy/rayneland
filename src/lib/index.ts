@@ -1,1 +1,1 @@
-export const pronouns = "she/they/xe";
+export const pronouns = "any/all";
