@@ -90,10 +90,11 @@
     <h3>names</h3>
     <ul>
       <li class="preferred">rayne</li>
-      <li class="ok">reese</li>
+      <li class="preferred">rainy</li>
       <li class="reserved" title="people like my friends (for now), old teachers, and my coach get a free pass">[deadname]</li>
       <li class="no">hayden</li>
       <li class="no">hayley</li>
+      <li class="no">reese</li>
     </ul>
     <h3>honorifics</h3>
     <ul>
