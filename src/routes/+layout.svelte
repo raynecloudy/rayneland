@@ -404,7 +404,8 @@
           <img src="/profile.png" alt="rayne cloudy">
         </button>
         <dropdown bind:this={profileCreditDropdown}>
-          <p>this art of my character <a href="https://toyhou.se/34189208">rayne</a> was made by <a href="https://toyhou.se/stickthelanding">stickthelanding</a>!!</p>
+          <p>this art of my character <a href="https://toyhou.se/34189208">rayne</a> took 5 hours which is the longest amount of time i've ever spent on a single art piece!!</p>
+          <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/107715575_MZeB6Patr2wNIxs.png" alt="the selfie">
           <DropdownClose />
         </dropdown>
       </div>

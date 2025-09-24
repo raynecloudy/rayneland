@@ -8,7 +8,6 @@ export const load = async () => {
   })
   if (res.ok) {
     const data = await res.json();
-    console.log(data[0].commit.committer.date);
     return {
       commitTimestamp: new Date(data[0].commit.committer.date)
     };

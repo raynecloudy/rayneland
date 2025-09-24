@@ -214,7 +214,6 @@
           if (a.name > b.name) return 1;
           return 0;
         })
-        console.log(chosen);
         for (let i = 0; i < chosen.length; i++) {
           list += `- ${chosen[i].name.charAt(0).toUpperCase()}${chosen[i].name.slice(1)}\n`;
         }
