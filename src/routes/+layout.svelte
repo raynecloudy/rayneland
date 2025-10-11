@@ -170,13 +170,13 @@
     }
 
     100% {
-      filter: blur(0.15rem) brightness(1) contrast(3);
+      filter: blur(0rem) brightness(1) contrast(3);
     }
   }
 
   app.light {
     animation: light linear 10s 1;
-    filter: blur(0.15rem) brightness(1) contrast(3);
+    filter: blur(0rem) brightness(1) contrast(3);
   }
 
   header {
