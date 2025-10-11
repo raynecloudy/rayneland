@@ -14,7 +14,7 @@
 </svelte:head>
 
 <h1>rayne cloudy's queer identity</h1>
-<p><sub>last updated 21st of september, 2025</sub></p>
+<p><sub>last updated 10th of october, 2025</sub></p>
 <div>
   <button onclick={() => {
     tldrDropdown.classList.toggle("show");
@@ -91,7 +91,7 @@
     <ul>
       <li class="preferred">rayne</li>
       <li class="preferred">rainy</li>
-      <li class="reserved" title="people like my friends (for now), old teachers, and my coach get a free pass">[deadname]</li>
+      <li class="no" title="this name in particular isn't placed in alphabetical order, it is just at the top">[deadname]</li>
       <li class="no">hayden</li>
       <li class="no">hayley</li>
       <li class="no">reese</li>
@@ -99,10 +99,10 @@
     <h3>honorifics</h3>
     <ul>
       <li class="preferred">no honorific</li>
-      <li class="preferred">ms.</li>
       <li class="preferred">mx.</li>
       <li class="no">mr.</li>
       <li class="no">mrs.</li>
+      <li class="no">ms.</li>
       <li class="no">sir</li>
     </ul>
     <h3>relationship descriptions</h3>
@@ -110,18 +110,18 @@
     <ul>
       <li class="preferred" title="a constant one, even?">companion</li>
       <li class="preferred">enbyfriend</li>
-      <li class="preferred">girlfriend</li>
+      <li class="preferred" title="i'll allow this just because it's so mainstream">girlfriend</li>
       <li class="preferred">kissmate</li>
       <li class="preferred">love</li>
-      <li class="preferred" title="so romantic >///< i'm getting gay dizzies writing this">other half</li>
+      <li class="preferred" title="this is so romantic omg">other half</li>
       <li class="preferred">partner</li>
       <li class="reserved">beloved</li>
       <li class="reserved">darling</li>
-      <li class="reserved">wife</li>
-      <li class="no">boo</li>
+      <li class="no" title="this is just a bad term i hate it so much is there a double downvote">boo</li>
       <li class="no">boyfriend</li>
       <li class="no">hubby</li>
       <li class="no">husband</li>
+      <li class="no">wife</li>
     </ul>
   </div>
   <div>
@@ -141,7 +141,7 @@
       <li class="ok">beautiful</li>
       <li class="no">handsome</li>
       <li class="no">hot</li>
-      <li class="no">sexy</li>
+      <li class="no" title="ew get away from me please">sexy</li>
     </ul>
     <h3>person descriptions</h3>
     <ul>
@@ -150,9 +150,9 @@
       <li class="ok">bro</li>
       <li class="ok">dude</li>
       <li class="ok">enby</li>
-      <li class="ok">girl</li>
       <li class="no">boy</li>
       <li class="no" title="i actually get mad if people call me this">buddy</li>
+      <li class="no">girl</li>
       <li class="no">man</li>
       <li class="no">sib</li>
       <li class="no">sis</li>

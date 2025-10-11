@@ -2,7 +2,7 @@
   td[colspan="4"] {
     position: sticky;
     top: 0;
-    background-color: #000000;
+    background-color: var(--bg);
   }
 </style>
 

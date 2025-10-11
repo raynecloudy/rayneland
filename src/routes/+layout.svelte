@@ -5,7 +5,7 @@
   import { pronouns } from "$lib";
   import type { LayoutProps } from "./$types";
 
-  let { children, data }: LayoutProps = $props();
+  let { children }: LayoutProps = $props();
 
   let birthdayDropdown: HTMLElement;
   let profileCreditDropdown: HTMLElement;
@@ -17,6 +17,8 @@
 
   let age: number = $state(0);
   let distanceToBirthday: number = $state(0);
+
+  let lightMode = $state(false);
   
   const upDate = () => {
     today = new Date();
@@ -33,8 +35,15 @@
 
   onMount(() => {
     setInterval(upDate, 1000);
-  });
 
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "l") {
+        event.preventDefault();
+        lightMode = !lightMode;
+        if (lightMode === true) new Audio("/light_mode.wav").play();
+      }
+    });
+  });
 </script>
 
 <style>
@@ -54,14 +63,23 @@
   }
 
   :root {
-    /* cursor: url("/cursors/default.png"), auto; */
+    --bg: #000000;
+    --text: #ffffff;
+    --link: #ffa4eb;
     --disabled: #929292;
-    --outline: 0.0625rem solid #ffffff;
+    --outline: 0.0625rem solid var(--text);
+  }
+
+  :root:has(app.light) {
+    --bg: #ffffff;
+    --text: #1d1d1d;
+    --link: #b169a1;
+    --disabled: #585858;
   }
 
   :global(body) {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--bg);
+    color: var(--text);
     color-scheme: dark;
     font-family: "Commissioner";
     margin: 2rem;
@@ -71,7 +89,7 @@
 
   :global(::selection) {
     background-color: #6a92ff94;
-    color: #ffffff;
+    color: var(--text);
   }
 
   :global(a, button) {
@@ -82,7 +100,6 @@
     border-radius: 0;
     padding: 0;
     margin: 0;
-    /* cursor: url("/cursors/interact.png"), auto; */
   }
 
   :global(:is(a, button):not(:disabled)) {
@@ -94,7 +111,7 @@
     padding: 0.4rem 0.6rem;
     line-height: 1;
     outline: var(--outline) !important;
-    color: #ffffff;
+    color: var(--text);
     user-select: none;
     display: inline-block;
   }
@@ -105,8 +122,8 @@
   }
 
   :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--text);
+    color: var(--bg);
     outline: none;
     text-decoration: none;
   }
@@ -147,6 +164,21 @@
     width: 100%;
   }
 
+  @keyframes light {
+    0% {
+      filter: blur(0.5rem) brightness(1.5) contrast(3);
+    }
+
+    100% {
+      filter: blur(0.15rem) brightness(1) contrast(3);
+    }
+  }
+
+  app.light {
+    animation: light linear 10s 1;
+    filter: blur(0.15rem) brightness(1) contrast(3);
+  }
+
   header {
     margin-bottom: 1rem;
   }
@@ -185,7 +217,7 @@
   }
 
   #pfp:has(button:focus-visible) {
-    outline: 0.125rem solid #ffffff;
+    outline: 0.125rem solid var(--text);
   }
 
   header info aside {
@@ -227,7 +259,7 @@
     padding: 0.8rem;
     flex: 1 1;
     text-align: center;
-    background-color: #000000;
+    background-color: var(--bg);
   }
 
   #social_bar img:not(.new) {
@@ -247,7 +279,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #000000;
+    background-color: var(--bg);
     padding: 2rem;
     border-radius: 1rem;
     outline: var(--outline);
@@ -318,7 +350,7 @@
     width: 8rem;
     position: sticky;
     top: 2rem;
-    background-color: #000000;
+    background-color: var(--bg);
     z-index: 1;
   }
   
@@ -335,7 +367,7 @@
   }
 
   :global(:is(:is(main > :not(:has(nav)), dropdown) a, main > a):not(pre code a)) {
-    color: #ffa4eb;
+    color: var(--link);
   }
 
   :global(pre code a) {
@@ -392,7 +424,7 @@
   <meta name="og:site_name" content="rayne cloudy's website (raynecloudy)">
 </svelte:head>
 
-<app in:fly={{ y: 20 }}>
+<app class:light={lightMode}>
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
   <header>
     <img src="/banner.png" alt="sunset" id="banner">
@@ -464,11 +496,6 @@
       </nav>
     </div>
     {@render children?.()}
-    <footer>
-      {#if data.commitTimestamp}
-        website last updated {data.commitTimestamp.getDay()}{[undefined, "st", "nd", "rd"][parseInt(data.commitTimestamp.getDay().toString().charAt(data.commitTimestamp.getDay().toString().length - 1))] ?? "th"} of {["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"][data.commitTimestamp.getMonth()]}, {data.commitTimestamp.getFullYear()}
-      {/if}
-    </footer>
     <p><span class="skip_to"><button aria-label="skip to" onclick={() => tabTo("a, button")}>back to top</button></span></p>
   </main>
 </app>
