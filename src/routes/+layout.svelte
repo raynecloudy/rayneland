@@ -18,6 +18,7 @@
   let age: number = $state(0);
   let distanceToBirthday: number = $state(0);
 
+  let barrelRoll = $state(false);
   let lightMode = $state(false);
   
   const upDate = () => {
@@ -35,6 +36,9 @@
 
   onMount(() => {
     setInterval(upDate, 1000);
+
+    const params = new URLSearchParams(location.search);
+    barrelRoll = params.get("barrel_roll") === "" || !!params.get("barrel_roll");
 
     document.addEventListener("keydown", (event) => {
       if (event.key === "l") {
@@ -85,6 +89,12 @@
     margin: 2rem;
     display: flex;
     justify-content: center;
+  }
+
+  :global(app.barrel-roll) {
+    transform: rotate(-88deg) scale(0.4) translateX(10rem) translateY(-37rem);
+    height: calc(100vh - 4rem);
+    z-index: 1;
   }
 
   :global(::selection) {
@@ -417,6 +427,14 @@
       filter: hue-rotate(360deg);
     }
   }
+
+  video[src="/barrel_roll.webm"] {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
 </style>
 
 <svelte:head>
@@ -424,7 +442,10 @@
   <meta name="og:site_name" content="rayne cloudy's website (raynecloudy)">
 </svelte:head>
 
-<app class:light={lightMode}>
+{#if barrelRoll}
+  <video src="/barrel_roll.webm" onended={() => barrelRoll = false} autoplay><track kind="captions"></video>
+{/if}
+<app class:light={lightMode} class:barrel-roll={barrelRoll}>
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
   <header>
     <img src="/banner.png" alt="sunset" id="banner">
