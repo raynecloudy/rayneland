@@ -89,8 +89,8 @@
   <div>
     <h3>names</h3>
     <ul>
-      <li class="preferred">rayne</li>
-      <li class="preferred">rainy</li>
+      <li class="preferred">rayne <button onclick={() => new Audio("/phonetic/ɹeɪn.mp3").play()} title="hear pronunciation">/ɹeɪn/</button></li>
+      <li class="preferred">rainy <button onclick={() => new Audio("/phonetic/ˈɹeɪniː.mp3").play()} title="hear pronunciation">/ˈɹeɪniː/</button></li>
       <li class="no" title="this name in particular isn't placed in alphabetical order, it is just at the top">[deadname]</li>
       <li class="no">hayden</li>
       <li class="no">hayley</li>
