@@ -1,6 +1,5 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { fly } from "svelte/transition";
   import DropdownClose from "./DropdownClose.svelte";
   import { pronouns } from "$lib";
   import type { LayoutProps } from "./$types";
@@ -62,14 +61,14 @@
   }
 
   @font-face {
-    font-family: "JetBrains Mono";
-    src: url("/fonts/jetbrainsmono/font.ttf");
+    font-family: "Maple Mono";
+    src: url("/fonts/maplemono/font.ttf");
   }
 
   :root {
-    --bg: #000000;
+    --bg: #09030e;
     --text: #ffffff;
-    --link: #ffa4eb;
+    --link: #cdb2ff;
     --disabled: #929292;
     --outline: 0.0625rem solid var(--text);
   }
@@ -98,7 +97,7 @@
   }
 
   :global(::selection) {
-    background-color: #6a92ff94;
+    background-color: #a36aff94;
     color: var(--text);
   }
 
@@ -153,7 +152,7 @@
   }
 
   :global(code) {
-    font-family: "JetBrains Mono";
+    font-family: "Maple Mono";
   }
 
   :global(sub) {
@@ -170,7 +169,7 @@
   }
 
   app {
-    max-width: 50rem;
+    max-width: 55rem;
     width: 100%;
   }
 
@@ -378,9 +377,10 @@
 
   :global(:is(:is(main > :not(:has(nav)), dropdown) a, main > a):not(pre code a)) {
     color: var(--link);
+    font-weight: 650;
   }
 
-  :global(pre code a) {
+  :global(a, button) {
     text-decoration: none;
   }
 
@@ -439,7 +439,7 @@
 
 <svelte:head>
   <meta name="og:locale" content="en_US">
-  <meta name="og:site_name" content="rayne cloudy's website (raynecloudy)">
+  <meta name="og:site_name" content="rayne cloudy's website">
 </svelte:head>
 
 {#if barrelRoll}
