@@ -66,9 +66,9 @@
   }
 
   :root {
-    --bg: #09030e;
-    --text: #ffffff;
-    --link: #cdb2ff;
+    --bg: #0a0211;
+    --text: #e4d8ff;
+    --link: #bf9dff;
     --disabled: #929292;
     --outline: 0.0625rem solid var(--text);
   }
@@ -97,7 +97,7 @@
   }
 
   :global(::selection) {
-    background-color: #a36aff94;
+    background-color: #9771ffbb;
     color: var(--text);
   }
 
@@ -109,6 +109,8 @@
     border-radius: 0;
     padding: 0;
     margin: 0;
+    position: relative;
+    border-radius: 0.2rem;
   }
 
   :global(:is(a, button):not(:disabled)) {
@@ -131,10 +133,27 @@
   }
 
   :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
-    background-color: var(--text);
     color: var(--bg);
     outline: none;
     text-decoration: none;
+  }
+
+  :global(:is(a, button):not(:has(img))):not(:disabled)::before {
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: var(--text);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.2s;
+    border-radius: 0.2rem;
+  }
+  
+  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled)::before {
+    width: 100%;
   }
 
   :global(:is(a, button):is(:disabled, [inert=""])) {

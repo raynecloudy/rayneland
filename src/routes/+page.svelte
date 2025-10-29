@@ -26,7 +26,7 @@
 </ul>
 <p>the first programming language i learned was python. then i learned javascript and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
 <pre style:text-align="center"><code class="blue">
-                   -`                
+                  -`                 
                  .o+`                
                 `ooo/                
                `+oooo:               
