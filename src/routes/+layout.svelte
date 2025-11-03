@@ -69,7 +69,7 @@
     --bg: #0a0211;
     --text: #e4d8ff;
     --link: #bf9dff;
-    --disabled: #929292;
+    --disabled: #897b96;
     --outline: 0.0625rem solid var(--text);
   }
 
