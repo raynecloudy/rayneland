@@ -131,13 +131,13 @@
     gap: 0.6rem;
   }
 
-  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
+  :global(.action:is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
     color: var(--bg);
     outline: none;
     text-decoration: none;
   }
 
-  :global(:is(a, button):not(:has(img))):not(:disabled)::before {
+  :global(.action:not(:has(img))):not(:disabled)::before {
     content: "";
     height: 100%;
     width: 0%;
@@ -151,8 +151,12 @@
     border-radius: 0.2rem;
   }
   
-  :global(:is(a, button):is(:focus-visible, :hover):not(:has(img))):not(:disabled)::before {
+  :global(.action:is(:focus-visible, :hover):not(:has(img))):not(:disabled)::before {
     width: 100%;
+  }
+
+  :global(:is(a, button):not(.action):hover) {
+    text-decoration: underline;
   }
 
   :global(:is(a, button):is(:disabled, [inert=""])) {
@@ -259,10 +263,6 @@
   header info aside table :is(td, th) {
     padding: 0.5rem 0.8rem;
     text-align: center;
-  }
-
-  header info aside table td a {
-    text-decoration: solid;
   }
 
   :global(th) {
