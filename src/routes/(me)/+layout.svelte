@@ -270,13 +270,13 @@
     font-weight: unset;
   }
 
-  #social_bar {
+  #socials_bar {
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
   }
 
-  #social_bar a {
+  #socials_bar a {
     display: block;
     user-select: none;
     line-height: 0rem;
@@ -286,11 +286,11 @@
     background-color: var(--bg);
   }
 
-  #social_bar img:not(.new) {
+  #socials_bar img:not(.new) {
     height: 1.4rem;
   }
 
-  #social_bar a:is(:hover, :focus-visible) {
+  #socials_bar a:is(:hover, :focus-visible) {
     outline: none;
     filter: invert();
   }
@@ -492,7 +492,7 @@
         </table>
       </aside>
     </info>
-    <div id="social_bar">
+    <div id="socials_bar">
       <a href="https://artfight.net/~raynecloudy" title="art fight"><img src="/socials/Art Fight.svg" alt="art fight"></a>
       <a href="https://bsky.app/profile/raynec.dev" title="bluesky"><img src="/socials/bsky-white.svg" alt="bluesky"></a>
       <a href="https://discord.gg/mD6metDHNE" title="discord server"><img src="/socials/Discord-Symbol-White.svg" alt="discord"></a>
