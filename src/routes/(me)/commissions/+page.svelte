@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DropdownClose from "../../../lib/components/DropdownClose.svelte";
+  import DropdownClose from "$lib/components/DropdownClose.svelte";
 
   const open = false;
 

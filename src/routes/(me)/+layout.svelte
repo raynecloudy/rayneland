@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import DropdownClose from "../../lib/components/DropdownClose.svelte";
+  import DropdownClose from "$lib/components/DropdownClose.svelte";
   import { pronouns } from "$lib";
-  import type { LayoutProps } from "../$types";
+  import type { LayoutProps } from "./$types";
 
   let { children }: LayoutProps = $props();
 
