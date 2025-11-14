@@ -1,13 +1,12 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import DropdownClose from "./DropdownClose.svelte";
+  import DropdownClose from "../../lib/components/DropdownClose.svelte";
   import { pronouns } from "$lib";
-  import type { LayoutProps } from "./$types";
+  import type { LayoutProps } from "../$types";
 
   let { children }: LayoutProps = $props();
 
   let birthdayDropdown: HTMLElement;
-  let profileCreditDropdown: HTMLElement;
 
   let today = $state(new Date());
 
@@ -33,7 +32,8 @@
 
   upDate();
 
-  onMount(() => {
+  onMount(async () => {
+    const github = await fetch("https://api.github.com/users/raynecloudy");
     setInterval(upDate, 1000);
 
     const params = new URLSearchParams(location.search);
@@ -470,19 +470,12 @@
     <img src="/banner.png" alt="sunset" id="banner">
     <info>
       <div id="pfp">
-        <button onclick={() => {
-          profileCreditDropdown.classList.toggle("show");
-        }}>
-          <img src="/profile.png" alt="rayne cloudy">
+        <button>
+          <img src="/profile.png" alt="Raynecloudy">
         </button>
-        <dropdown bind:this={profileCreditDropdown}>
-          <p>this art of my character <a href="https://toyhou.se/34189208">rayne</a> took 5 hours which is the longest amount of time i've ever spent on a single art piece!!</p>
-          <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/107715575_MZeB6Patr2wNIxs.png" alt="the selfie">
-          <DropdownClose />
-        </dropdown>
       </div>
       <div>
-        <h1>rayne cloudy</h1>
+        <h1>Rayne</h1>
         <p>ambitious teenage web developer{today.getDate() == 23 && today.getMonth() == 7 ? " (and the birthday girl!)" : "."}</p>
       </div>
       <aside>
