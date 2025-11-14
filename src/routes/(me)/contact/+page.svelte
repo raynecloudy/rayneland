@@ -1,6 +1,6 @@
 <svelte:head>
   <title>contact</title>
-  <meta name="og:description" content="a list of ways to contact me, rayne cloudy!">
+  <meta name="og:description" content="a list of ways to contact me">
   <meta name="og:title" content="contact">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/contact">

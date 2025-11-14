@@ -1,6 +1,6 @@
 <svelte:head>
   <title>donators</title>
-  <meta name="og:description" content="a list of my donators from patreon! >w< ty all">
+  <meta name="og:description" content="a list of my donators from patreon">
   <meta name="og:title" content="donators">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/donators">

@@ -1,6 +1,6 @@
 <svelte:head>
   <title>writing</title>
-  <meta name="og:description" content="a list of things i've written!!">
+  <meta name="og:description" content="a list of things i've written">
   <meta name="og:title" content="writing">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/writing">

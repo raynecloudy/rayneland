@@ -8,7 +8,7 @@
 <svelte:head>
   <title>queer identity</title>
   <meta name="og:description" content="if you know me personally, you probably know my pronouns and gender identity change a LOT. this page is to help you understand my gender and sexuality and stuff like that!">
-  <meta name="og:title" content="rayne cloudy's queer identity">
+  <meta name="og:title" content="queer identity">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev/gender">
 </svelte:head>

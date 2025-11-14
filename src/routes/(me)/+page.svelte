@@ -10,21 +10,21 @@
 
 <svelte:head>
   <title>rayne cloudy</title>
-  <meta name="og:description" content="hii i'm rayne cloudy (raynecloudy)! this is my personal website! yayyay!!!!!">
-  <meta name="og:title" content="rayne cloudy's website!">
+  <meta name="og:description" content="hey, i'm rayne! welcome to my website! i'm a teenage software engineer and a sophomore in high school.">
+  <meta name="og:title" content="rayne's website!">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://raynec.dev">
 </svelte:head>
 
-<p>i'm <strong>rayne cloudy</strong> (@raynecloudy)! welcome to my website!! i'm a teenage software engineer and high school sophomore who likes the color pink a lot. i'm going to major in computer science when i go to college, but that's not for another few years, haha....</p>
-<p>i've been drawing for 11 years and have been programming for 9. over all these years i've refined my skills, experimented with new hobbies and tools, expressed my creativity through my work, and ended up with a history i'm really proud of!! and i'm still going.... the rayne train isn't stopping for a looooong time :D</p>
+<p>hey, i'm rayne! welcome to my website! i'm a teenage software engineer and a sophomore in high school.</p>
+<p>i've been drawing for 11 years and have been programming for 9. over all these years i've refined my skills, experimented with new hobbies and tools, expressed my creativity through my work, and ended up with a history i'm pretty proud of!</p>
 <p>my hobbies are:</p>
 <ul>
   <li>computer programming</li>
   <li>drawing</li>
   <li>writing</li>
 </ul>
-<p>the first programming language i learned was python. then i learned javascript and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
+<p>the first programming language i learned was python. then, i learned javascript, and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
 <pre style:text-align="center"><code class="blue">
                   -`                 
                  .o+`                
@@ -66,7 +66,6 @@
 
 </code></pre>
 <p><a href="https://github.com/raynecloudy/#js-contribution-activity-description"><img src="https://ghchart.rshah.org/raynecloudy" alt="raynecloudy's github contribution graph" style="filter: invert();"></a></p>
-<p>i hope you enjoy your time on my website and find some cool stuff! i've put a lot of effort into making this a beautiful website &lt;3</p>
 <p>though our names have striking similarity, i bear no relation to raynecloudy on instagram, the music artist "cloudy rayne", or anybody that goes by "rayne cloud." i'm rayne cloud<strong>y</strong>, with a y.</p>
 {#await getSong()}
   <!--  -->
