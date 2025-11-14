@@ -16,9 +16,9 @@
 <h1>rayne cloudy's queer identity</h1>
 <p><sub>last updated 10th of october, 2025</sub></p>
 <div>
-  <button onclick={() => {
+  <button class="action" onclick={() => {
     tldrDropdown.classList.toggle("show");
-  }}>click for TL;DR</button>
+  }}>view TL;DR</button>
   <dropdown bind:this={tldrDropdown}>
     <p>my pronouns are <strong>{pronouns}</strong>.</p>
     <p>i am:</p>

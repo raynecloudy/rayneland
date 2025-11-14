@@ -80,7 +80,7 @@
   }
 
   :global(body) {
-    background-color: var(--bg);
+    background-color: var(--bg) !important;
     color: var(--text);
     color-scheme: dark;
     font-family: "Commissioner";
@@ -155,7 +155,8 @@
     width: 100%;
   }
 
-  :global(:is(a, button):not(.action):hover) {
+  :global(:is(a, button):not(.action):is(:hover, :focus-visible)) {
+    outline: 0;
     text-decoration: underline;
   }
 
