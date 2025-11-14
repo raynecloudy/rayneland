@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { page } from "$app/state";
   import { Oneko } from "lots-o-nekos";
   import { onMount } from "svelte";
+  import { page } from "$app/state";
 
   let canInitialize: boolean = $state(false);
 
@@ -46,8 +46,10 @@
 
 <h1>{page.status}</h1>
 {#if page.status === 404}
-  <p>this page could not be located. make sure you typed the url correctly.</p>
+  <p>this page could not be located. make sure the url is correct.</p>
   <p>path: {page.url.pathname}</p>
+{:else if page.status === 429}
+  <p>woah dude, chill out! you're making requests too fast.</p>
 {:else if page.status === 500}
   <p>uh oh, there was an internal server error. consider <a href="https://github.com/raynecloudy/rayneland/issues">reporting this error</a>.</p>
 {/if}
