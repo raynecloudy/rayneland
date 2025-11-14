@@ -25,8 +25,6 @@
     <ul>
       <li>unlabeled</li>
       <li>leaning feminine</li>
-      <li>pansexual</li>
-      <li>panromantic</li>
     </ul>
     <DropdownClose />
   </dropdown>
@@ -54,14 +52,8 @@
 <img src="/lgbtq/unlabeled.svg" alt="unlabeled flag">
 <!-- <p><img src="/geneder_idnentely.png" alt="keeping up with rayne's gender identity"></p> -->
 <p><img src="/forgot_gender.png" alt="rayne cloudy forgets her gender"></p>
-<h2>sexuality</h2>
-<p>my sexuality doesn't have nearly as long a story. in fact, it doesn't really have a story at all so i'll just state the facts here. i'm pan!! sort of!!!! close enough ig!!!!?</p>
-<p>being pansexual means feeling attraction to all people regardless of their gender.</p>
-<img src="/lgbtq/pansexual.svg" alt="pansexual flag">
-<p>well, at least, that's the label i'm currently using. i'm still kind of figuring it out. i feel more sexual and romantic attraction towards females than males, but i don't leave boys out of the equation entirely. it's complicated</p>
-<p>for more information check <a href="https://spectrum.avris.it/slMG">this</a> out</p>
 <h2>pronouns and more</h2>
-<p>don't worry; i don't expect you to memorize all this. that would be unreasonable. just remember my name and pronouns and you'll be fine ^v^</p>
+<p>don't worry; i don't expect you to memorize all this. that would be unreasonable. just remember my name and pronouns and you'll be fine!</p>
 <style>
   .preferred {
     color: #ff85e4;
