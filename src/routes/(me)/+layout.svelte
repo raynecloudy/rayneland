@@ -172,6 +172,7 @@
 
   :global(:is(td, th):not(header *)) {
     outline: var(--outline);
+    z-index: 1;
   }
 
   :global(code) {
