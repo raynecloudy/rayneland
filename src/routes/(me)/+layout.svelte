@@ -472,7 +472,7 @@
       </div>
       <div>
         <h1>Rayne</h1>
-        <p>ambitious teenage web developer{today.getDate() == 23 && today.getMonth() == 7 ? " (and the birthday girl!)" : "."}</p>
+        <p>ambitious teenage web developer{today.getDate() == 23 && today.getMonth() == 7 ? " (and the birthday star!)" : "."}</p>
       </div>
       <aside>
         <table>
