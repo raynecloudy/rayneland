@@ -18,7 +18,7 @@
 
   let barrelRoll = $state(false);
   let lightMode = $state(false);
-  
+
   const upDate = () => {
     today = new Date();
     age = new Date(Date.now() - birthdate).getFullYear() - 1970;
@@ -33,7 +33,6 @@
   upDate();
 
   onMount(async () => {
-    const github = await fetch("https://api.github.com/users/raynecloudy");
     setInterval(upDate, 1000);
 
     const params = new URLSearchParams(location.search);
@@ -67,10 +66,10 @@
 
   :root {
     --bg: #0a0211;
-    --text: #e4d8ff;
-    --link: #bf9dff;
     --disabled: #897b96;
-    --outline: 0.0625rem solid var(--text);
+    --link: #bf9dff;
+    --text: #e4d8ff;
+    --outline: 0.0625rem solid #5f4774;
   }
 
   :root:has(app.light) {
@@ -214,7 +213,7 @@
   #banner {
     border-radius: 2rem;
     width: 100%;
-    height: 13rem;
+    height: 14rem;
     object-fit: cover;
     display: block;
     box-shadow: 0 2rem 7rem #f9c2d95e;
@@ -223,23 +222,20 @@
   header info {
     display: flex;
     gap: 2rem;
-    margin: 0 2rem;
+    margin: 2rem;
   }
 
   #pfp {
-    border-radius: 2rem;
-    width: 10rem;
-    height: 10rem;
+    border-radius: 25%;
+    width: 12rem;
     aspect-ratio: 1;
     display: block;
-    position: relative;
-    top: -2rem;
     flex-shrink: 0;
   }
 
   #pfp :where(:not(dropdown) > img, button:has(> img)) {
     display: block;
-    border-radius: 2rem;
+    border-radius: 25%;
     background-color: unset;
     outline: none;
   }
