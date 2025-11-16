@@ -52,7 +52,7 @@
 <img src="/lgbtq/unlabeled.svg" alt="unlabeled flag">
 <!-- <p><img src="/geneder_idnentely.png" alt="keeping up with rayne's gender identity"></p> -->
 <p><img src="/forgot_gender.png" alt="rayne cloudy forgets her gender"></p>
-<h2>pronouns and more</h2>
+<h2 id="pronouns">pronouns and more</h2>
 <p>don't worry; i don't expect you to memorize all this. that would be unreasonable. just remember my name and pronouns and you'll be fine!</p>
 <style>
   .preferred {
