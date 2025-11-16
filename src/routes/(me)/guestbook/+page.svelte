@@ -7,7 +7,7 @@
   <meta name="og:description" content="rayne cloudy's guestbook!!">
   <meta name="og:title" content="guestbook">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/gender">
+  <meta name="og:url" content="https://raynec.dev/guestbook">
 </svelte:head>
 
 <div bind:clientWidth={width}>
