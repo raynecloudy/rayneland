@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
-		allowedHosts: ["raynec.dev"],
+		allowedHosts: ["raynec.dev", "rayne.page"],
 		port: 1234
 	}
 });
