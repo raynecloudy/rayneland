@@ -7,6 +7,7 @@
   let { children }: LayoutProps = $props();
 
   let birthdayDropdown: HTMLElement;
+  let deprecationNoticeElement = $state() as HTMLElement;
 
   let today = $state(new Date());
 
@@ -17,6 +18,7 @@
   let distanceToBirthday: number = $state(0);
 
   let barrelRoll = $state(false);
+  let deprecationNotice = $state(false);
   let lightMode = $state(false);
 
   const upDate = () => {
@@ -37,6 +39,7 @@
 
     const params = new URLSearchParams(location.search);
     barrelRoll = params.get("barrel_roll") === "" || !!params.get("barrel_roll");
+    deprecationNotice = params.get("raynec.dev") === "" || !!params.get("raynec.dev");
 
     document.addEventListener("keydown", (event) => {
       if (event.key === "l") {
@@ -456,13 +459,18 @@
 
 <svelte:head>
   <meta name="og:locale" content="en_US">
-  <meta name="og:site_name" content="rayne cloudy's website">
 </svelte:head>
 
 {#if barrelRoll}
   <video src="/barrel_roll.webm" onended={() => barrelRoll = false} autoplay><track kind="captions"></video>
 {/if}
 <app class:light={lightMode} class:barrel-roll={barrelRoll}>
+  {#if deprecationNotice}
+    <div class="block" bind:this={deprecationNoticeElement}>
+      <h2>notice</h2>
+      <p><b>raynec.dev</b> is deprecated, and will not redirect here once it expires.</p>
+    </div>
+  {/if}
   <span class="skip_to">skip to....<button aria-label="skip to" onclick={() => tabTo("main :is(a, button):not(nav a):first-of-type", "main :is(a, button):first-of-type")}>main content</button><button aria-label="skip to" onclick={() => tabTo("main :is(a, button):first-of-type")}>navigation</button></span>
   <header>
     <img src="/banner.png" alt="sunset" id="banner">
