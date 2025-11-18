@@ -3,7 +3,7 @@
   <meta name="og:description" content="animations made by me!">
   <meta name="og:title" content="animations">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/animations">
+  <meta name="og:url" content="https://rayne.page/animations">
 </svelte:head>
 
 <h1>animations</h1>

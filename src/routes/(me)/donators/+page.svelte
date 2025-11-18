@@ -3,7 +3,7 @@
   <meta name="og:description" content="a list of my donators from patreon">
   <meta name="og:title" content="donators">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/donators">
+  <meta name="og:url" content="https://rayne.page/donators">
 </svelte:head>
 
 <h1>donators</h1>

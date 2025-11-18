@@ -3,7 +3,7 @@
   <meta name="og:description" content="a love poem with a computational theme">
   <meta name="og:title" content="Web Development Sonnet">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/writing/Web Development Sonnet">
+  <meta name="og:url" content="https:///writing/Web Development Sonnet">
 </svelte:head>
 
 <p><sub><code class="grey">//&nbsp;</code>This poem has syntax found in web development computer programs. To help with reading, I’ve greyed out parts that aren’t intended for speech. I hope you enjoy my geeky love poem :)</sub></p>

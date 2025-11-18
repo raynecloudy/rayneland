@@ -11,9 +11,9 @@
 <svelte:head>
   <title>rayne cloudy</title>
   <meta name="og:description" content="hey, i'm rayne! welcome to my website! i'm a teenage software engineer and a sophomore in high school.">
-  <meta name="og:title" content="rayne's website!">
+  <meta name="og:title" content="rayne's website">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev">
+  <meta name="og:url" content="https://rayne.page">
 </svelte:head>
 
 <p>hey, i'm rayne! welcome to my website! i'm a teenage software engineer and a sophomore in high school.</p>

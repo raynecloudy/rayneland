@@ -9,7 +9,7 @@
   <meta name="og:description" content="my RSS feed">
   <meta name="og:title" content="feed">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/feed">
+  <meta name="og:url" content="https://rayne.page/feed">
 </svelte:head>
 
 <h1>feed</h1>

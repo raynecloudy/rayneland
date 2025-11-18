@@ -3,7 +3,7 @@
   <meta name="og:description" content="phone use in the classroom is a very personal issue for me, so writing this essay wasn't that much of a struggle.">
   <meta name="og:title" content="Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/writing/Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age">
+  <meta name="og:url" content="https:///writing/Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age">
 </svelte:head>
 
 <h1>Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age</h1>

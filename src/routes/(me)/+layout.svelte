@@ -504,7 +504,7 @@
     </info>
     <div id="socials_bar">
       <a href="https://artfight.net/~raynecloudy" title="art fight"><img src="/socials/Art Fight.svg" alt="art fight"></a>
-      <a href="https://bsky.app/profile/raynec.dev" title="bluesky"><img src="/socials/bsky-white.svg" alt="bluesky"></a>
+      <a href="https://bsky.app/profile/rayne.page" title="bluesky"><img src="/socials/bsky-white.svg" alt="bluesky"></a>
       <a href="https://discord.gg/mD6metDHNE" title="discord server"><img src="/socials/Discord-Symbol-White.svg" alt="discord"></a>
       <a href="https://github.com/raynecloudy" title="github"><img src="/socials/GitHub_Invertocat_Light.svg" alt="github"></a>
       <a href="https://instagram.com/raynecloudyart" title="instagram"><img src="/socials/Instagram_Glyph_White.svg" alt="instagram"></a>
@@ -526,9 +526,9 @@
           <li><a href="/donators">donators</a></li>
           <li><a href="/feed">feed</a></li>
           <li><a href="/guestbook">guestbook</a></li>
-          <li><a href="https://hatch.raynec.dev/">hatch.lol editor</a> ↗</li>
+          <li><a href="https://hatch.rayne.page/">hatch.lol editor</a> ↗</li>
           <li><a href="/identity">queer identity</a></li>
-          <li><a href="https://ai.raynec.dev/">rAIne</a> ↗</li>
+          <li><a href="https://ai.rayne.page/">rAIne</a> ↗</li>
           <li><a href="/things">things</a></li>
           <li><a href="/writing">writing</a></li>
         </ul>

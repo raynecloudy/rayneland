@@ -3,7 +3,7 @@
   <meta name="og:description" content="a list of things i've written">
   <meta name="og:title" content="writing">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/writing">
+  <meta name="og:url" content="https:///writing">
 </svelte:head>
 
 <h1>writing</h1>

@@ -11,7 +11,7 @@
   <meta name="og:description" content="a complete list of things i've created and shared on the internet, in chronological order!">
   <meta name="og:title" content="rayne's list of things">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/things">
+  <meta name="og:url" content="https://rayne.page/things">
 </svelte:head>
 
 <h1>rayne's list of things</h1>
@@ -102,19 +102,19 @@
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/GAME NIGHT!.gif">GAME NIGHT!</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/GAME NIGHT!.gif">GAME NIGHT!</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/call for HELP_.gif">call for HELP_</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/call for HELP_.gif">call for HELP_</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/rayne clothing guidelines.png">rayne clothing guidelines</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/rayne clothing guidelines.png">rayne clothing guidelines</a></td>
       <td>art</td>
       <td>reference for art fight</td>
     </tr>
@@ -126,37 +126,37 @@
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/fin.png">fin</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/fin.png">fin</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/0x800700e1.png">0x800700e1</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/0x800700e1.png">0x800700e1</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/mov spinny.gif">mov spinny</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/mov spinny.gif">mov spinny</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/reii.png">reii</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/reii.png">reii</a></td>
       <td>art</td>
       <td>art fight defense</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/RAYNE HEIST.png">RAYNE HEIST</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/RAYNE HEIST.png">RAYNE HEIST</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/comet.png">comet</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/comet.png">comet</a></td>
       <td>art</td>
       <td>art fight attack</td>
     </tr>
@@ -174,7 +174,7 @@
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/hayden remastered.png">hayden remastered</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/hayden remastered.png">hayden remastered</a></td>
       <td>art</td>
       <td>reference for art fight</td>
     </tr>
@@ -186,67 +186,67 @@
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/hayley remastered.png">hayley remastered</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/hayley remastered.png">hayley remastered</a></td>
       <td>art</td>
       <td>reference for art fight</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/rayne remastered.png">rayne remastered</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/rayne remastered.png">rayne remastered</a></td>
       <td>art</td>
       <td>reference for art fight (and i just didn't like her look)</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/buffering.gif">buffering</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/buffering.gif">buffering</a></td>
       <td>art</td>
       <td>emoji for my discord server</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/bwaaa.png">bwaaa</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/bwaaa.png">bwaaa</a></td>
       <td>art</td>
       <td>emoji for my discord server</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/pwease.png">pwease</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/pwease.png">pwease</a></td>
       <td>art</td>
       <td>emoji for my discord server</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://discord.raynec.dev">discord.raynec.dev</a></td>
+      <td><a href="https://discord.rayne.page">discord.rayne.page</a></td>
       <td>software</td>
       <td>discord server invite redirect</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/happy birthday, luna!.png">happy birthday, luna!</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/happy birthday, luna!.png">happy birthday, luna!</a></td>
       <td>art</td>
       <td>friend's birthday</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/raynebow!.png">raynebow!</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/raynebow!.png">raynebow!</a></td>
       <td>art</td>
       <td>wanted to draw rayne with a bow</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://github.com/raynecloudy/raynec.dev/tree/old">raynec.dev:old</a></td>
+      <td><a href="https://github.com/raynecloudy/rayne.page/tree/old">rayne.page:old</a></td>
       <td>software</td>
       <td>old personal website</td>
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/TRAYNESGENDER!!!!!.png">TRAYNESGENDER!!!!!.png</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/TRAYNESGENDER!!!!!.png">TRAYNESGENDER!!!!!.png</a></td>
       <td>art</td>
       <td>pride month celebration</td>
     </tr>
     <tr>
       <td>may 2025</td>
-      <td><a href="https://uwu.raynec.dev">uwu.raynec.dev</a></td>
+      <td><a href="https://uwu.rayne.page">uwu.rayne.page</a></td>
       <td>software</td>
       <td>UwU</td>
     </tr>
@@ -258,13 +258,13 @@
     </tr>
     <tr>
       <td>may 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/rayneparty.png">rayneparty</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/rayneparty.png">rayneparty</a></td>
       <td>art</td>
       <td>profile picture</td>
     </tr>
     <tr>
       <td>apr 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/rayne.png">rayne</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/rayne.png">rayne</a></td>
       <td>art</td>
       <td>new OC</td>
     </tr>
@@ -306,13 +306,13 @@
     </tr>
     <tr>
       <td>feb 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/cuddles & cocoa.png">cuddles &amp; cocoa</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/cuddles & cocoa.png">cuddles &amp; cocoa</a></td>
       <td>art</td>
       <td></td>
     </tr>
     <tr>
       <td>feb 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/milo.png">milo</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/milo.png">milo</a></td>
       <td>art</td>
       <td>request</td>
     </tr>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>jan 2025</td>
-      <td><a href="https://stuff.raynec.dev/art/2025/shower.png">shower</a></td>
+      <td><a href="https://stuff.rayne.page/art/2025/shower.png">shower</a></td>
       <td>art</td>
       <td>depiction of my shower</td>
     </tr>
@@ -355,7 +355,7 @@
     </tr>
     <tr>
       <td>nov 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/hayley eggnog.png">hayley eggnog</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/hayley eggnog.png">hayley eggnog</a></td>
       <td>art</td>
       <td>festive profile picture</td>
     </tr>
@@ -367,7 +367,7 @@
     </tr>
     <tr>
       <td>nov 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/silly lil lovers.png">silly lil lovers</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/silly lil lovers.png">silly lil lovers</a></td>
       <td>art</td>
       <td></td>
     </tr>
@@ -379,13 +379,13 @@
     </tr>
     <tr>
       <td>oct 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/luna.png">luna</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/luna.png">luna</a></td>
       <td>art</td>
       <td>gift for a friend</td>
     </tr>
     <tr>
       <td>oct 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/hayley.webp">hayley.webp</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/hayley.webp">hayley.webp</a></td>
       <td>art</td>
       <td>profile picture</td>
     </tr>
@@ -403,7 +403,7 @@
     </tr>
     <tr>
       <td>sep 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/abbie.png">abbie</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/abbie.png">abbie</a></td>
       <td>art</td>
       <td>request</td>
     </tr>
@@ -481,7 +481,7 @@
     </tr>
     <tr>
       <td>jul 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/nya.png">nya</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/nya.png">nya</a></td>
       <td>art</td>
       <td>profile picture</td>
     </tr>
@@ -523,7 +523,7 @@
     </tr>
     <tr>
       <td>jul 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/hayley.png">hayley.png</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/hayley.png">hayley.png</a></td>
       <td>art</td>
       <td>new OC</td>
     </tr>
@@ -595,7 +595,7 @@
     </tr>
     <tr>
       <td>jun 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/summer apparel.png">summer apparel</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/summer apparel.png">summer apparel</a></td>
       <td>art</td>
       <td>trans OC art</td>
     </tr>
@@ -637,19 +637,19 @@
     </tr>
     <tr>
       <td>apr 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/qwertyy pfp.png">qwertyy pfp</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/qwertyy pfp.png">qwertyy pfp</a></td>
       <td>art</td>
       <td>profile picture</td>
     </tr>
     <tr>
       <td>apr 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/sweetheart.png">sweetheart</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/sweetheart.png">sweetheart</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
     <tr>
       <td>apr 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/zen.png">zen</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/zen.png">zen</a></td>
       <td>art</td>
       <td>school assignment</td>
     </tr>
@@ -661,7 +661,7 @@
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/eraser eater.png">eraser eater</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/eraser eater.png">eraser eater</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
@@ -673,25 +673,25 @@
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/qwertyy ref sheet 2.png">qwertyy ref sheet 2</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/qwertyy ref sheet 2.png">qwertyy ref sheet 2</a></td>
       <td>art</td>
       <td>refs are good</td>
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/guh.png">guh</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/guh.png">guh</a></td>
       <td>art</td>
       <td>idk wanted something different</td>
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/qwertyy gender neutral.png">qwertyy gender neutral</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/qwertyy gender neutral.png">qwertyy gender neutral</a></td>
       <td>art</td>
       <td>my OC became non-binary</td>
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/FLAP.png">FLAP</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/FLAP.png">FLAP</a></td>
       <td>art</td>
       <td>fanart</td>
     </tr>
@@ -709,25 +709,25 @@
     </tr>
     <tr>
       <td>feb 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/mess%3F.jpg">mess?</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/mess%3F.jpg">mess?</a></td>
       <td>art</td>
       <td>venting</td>
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/amara color theory.png">amara color theory</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/amara color theory.png">amara color theory</a></td>
       <td>art</td>
       <td>learned color theory</td>
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/abbey road..png">abbey road.</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/abbey road..png">abbey road.</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/amara ref sheet.png">amara ref sheet</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/amara ref sheet.png">amara ref sheet</a></td>
       <td>art</td>
       <td>refs yes good</td>
     </tr>
@@ -739,13 +739,13 @@
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/qwertyy ref sheet.png">qwertyy ref sheet</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/qwertyy ref sheet.png">qwertyy ref sheet</a></td>
       <td>art</td>
       <td>refs are good</td>
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/no thoughts, just music.jpg">no thoughts, just music</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/no thoughts, just music.jpg">no thoughts, just music</a></td>
       <td>art</td>
       <td>venting</td>
     </tr>
@@ -769,7 +769,7 @@
     </tr>
     <tr>
       <td>jan 2024</td>
-      <td><a href="https://stuff.raynec.dev/art/2024/january sunset.png">january sunset</a></td>
+      <td><a href="https://stuff.rayne.page/art/2024/january sunset.png">january sunset</a></td>
       <td>art</td>
       <td>wanted to draw a pretty scene</td>
     </tr>
@@ -806,19 +806,19 @@
     <tr><td colspan="4">^ 2024 | 2023 v</td></tr>
     <tr>
       <td>dec 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/qwertyy pfp 2.png">qwertyy pfp 2</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/qwertyy pfp 2.png">qwertyy pfp 2</a></td>
       <td>art</td>
       <td>profile picture</td>
     </tr>
     <tr>
       <td>dec 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/qwertyy-chan.png">qwertyy-chan</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/qwertyy-chan.png">qwertyy-chan</a></td>
       <td>art</td>
       <td>got too silly</td>
     </tr>
     <tr>
       <td>dec 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/interesting employee.png">interesting employee</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/interesting employee.png">interesting employee</a></td>
       <td>art</td>
       <td>christmas gift for a friend :3</td>
     </tr>
@@ -830,7 +830,7 @@
     </tr>
     <tr>
       <td>dec 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/makeshift tree.png">makeshift tree</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/makeshift tree.png">makeshift tree</a></td>
       <td>art</td>
       <td>festive art</td>
     </tr>
@@ -848,7 +848,7 @@
     </tr>
     <tr>
       <td>dec 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/hard of hearing.png">hard of hearing</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/hard of hearing.png">hard of hearing</a></td>
       <td>art</td>
       <td>for a video game</td>
     </tr>
@@ -872,7 +872,7 @@
     </tr>
     <tr>
       <td>nov 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/get along shirt.png">get along shirt</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/get along shirt.png">get along shirt</a></td>
       <td>art</td>
       <td>trend</td>
     </tr>
@@ -884,7 +884,7 @@
     </tr>
     <tr>
       <td>nov 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/everything dies.png">everything dies</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/everything dies.png">everything dies</a></td>
       <td>art</td>
       <td>contest entry</td>
     </tr>
@@ -956,13 +956,13 @@
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/lucie contest entry.png">lucie contest entry</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/lucie contest entry.png">lucie contest entry</a></td>
       <td>art</td>
       <td>contest entry</td>
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/ocean glow dtiys.png">ocean glow</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/ocean glow dtiys.png">ocean glow</a></td>
       <td>art</td>
       <td>contest entry</td>
     </tr>
@@ -974,7 +974,7 @@
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/melatonin.png">melatonin</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/melatonin.png">melatonin</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
@@ -986,19 +986,19 @@
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/amelia.png">amelia</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/amelia.png">amelia</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/a green man.png">a green man</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/a green man.png">a green man</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
     <tr>
       <td>oct 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/a green man.png">grass toucher</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/a green man.png">grass toucher</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
@@ -1034,7 +1034,7 @@
     </tr>
     <tr>
       <td>sep 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/coyote fanart.jpg">coyote sunrise fanart</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/coyote fanart.jpg">coyote sunrise fanart</a></td>
       <td>art</td>
       <td>read a book and NEEDED to make fanart</td>
     </tr>
@@ -1052,7 +1052,7 @@
     </tr>
     <tr>
       <td>jul 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/grandma.png">grandma</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/grandma.png">grandma</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
@@ -1106,7 +1106,7 @@
     </tr>
     <tr>
       <td>jun 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/yellow girl.png">yellow girl 2</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/yellow girl.png">yellow girl 2</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>
@@ -1160,7 +1160,7 @@
     </tr>
     <tr>
       <td>apr 2023</td>
-      <td><a href="https://stuff.raynec.dev/art/2023/pink girl.png">pink girl</a></td>
+      <td><a href="https://stuff.rayne.page/art/2023/pink girl.png">pink girl</a></td>
       <td>art</td>
       <td>wanted to draw</td>
     </tr>

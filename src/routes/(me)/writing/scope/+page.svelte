@@ -3,7 +3,7 @@
   <meta name="og:description" content="a short poem about meaning.">
   <meta name="og:title" content="scope">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/writing/scope">
+  <meta name="og:url" content="https:///writing/scope">
 </svelte:head>
 
 <h1>scope</h1>

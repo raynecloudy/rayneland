@@ -27,4 +27,4 @@ Disallow: /
 
 User-agent: *
 Disallow: /writing
-Disallow: stuff.raynec.dev/
+Disallow: stuff./

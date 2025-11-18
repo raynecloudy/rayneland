@@ -73,7 +73,7 @@
   <meta name="og:description" content="art commission info!">
   <meta name="og:title" content="commissions">
   <meta name="og:type" content="website">
-  <meta name="og:url" content="https://raynec.dev/commissions">
+  <meta name="og:url" content="https://rayne.page/commissions">
 </svelte:head>
 
 {#if !open}
