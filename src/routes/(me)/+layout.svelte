@@ -21,17 +21,18 @@
   }
 
   :root {
-    --bg: url("/background.png") #0a0211;
+    --bg: url("/background.png") var(--bg-color);
+    --bg-color: #0b0911;
     --disabled: #897b96;
     --primary: #a4d4bc;
     --text: #ece4ff;
-    --text-black: #121018;
     --outline: 0.0625rem solid #5d4b6d;
-  }
 
+  }
+  
   :global(body) {
-    background: url("/background.png");
-    color: var(--text);
+    background: url("/background.png") var(--bg-color) !important;
+    color: var(--text) !important;
     color-scheme: dark;
     font-family: "Commissioner";
     margin: 0;
@@ -97,7 +98,7 @@
   }
 
   :global(.action:is(:focus-visible, :hover):not(:has(img))):not(:disabled) {
-    color: var(--text-black);
+    color: var(--bg-color);
     outline: none;
     text-decoration: none;
   }
