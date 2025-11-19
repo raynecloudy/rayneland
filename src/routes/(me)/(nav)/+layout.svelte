@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { LayoutProps } from "./$types";
+  import type { LayoutProps } from "../$types";
   import Navigation from "$lib/components/Navigation.svelte";
 
   let { children }: LayoutProps = $props();
