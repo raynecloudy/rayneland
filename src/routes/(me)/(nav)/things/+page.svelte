@@ -349,7 +349,7 @@
     <tr>
       <td>mar 2025</td>
       <td><a href="/Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age">Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age</a></td>
-      <td>software</td>
+      <td>writing</td>
       <td>made for my english class</td>
     </tr>
     <tr>
