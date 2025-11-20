@@ -53,6 +53,10 @@
     font-weight: bold;
   }
 
+  :global(a[href=""]) {
+    color: var(--disabled);
+  }
+
   :global(a.action, button) {
     color: inherit;
     font: inherit;
@@ -139,6 +143,7 @@
   :global(:is(td, th):not(header *)) {
     outline: var(--outline);
     z-index: 1;
+    padding: 0.1rem 0.3rem;
   }
 
   :global(code) {

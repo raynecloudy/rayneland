@@ -2,7 +2,7 @@
   td[colspan="4"] {
     position: sticky;
     top: 0;
-    background-color: var(--bg);
+    background: var(--bg);
   }
 </style>
 
@@ -15,7 +15,7 @@
 </svelte:head>
 
 <h1>rayne's list of things</h1>
-<sub>last updated 6th of september, 2025</sub>
+<sub>last updated 19th of november, 2025</sub>
 <p>a complete list of things i've created and shared on the internet, in chronological order!</p>
 <table>
   <thead>
@@ -29,10 +29,52 @@
   <tbody>
     <tr><td colspan="4">2025 v</td></tr>
     <tr>
-      <td>sep 2025</td>
-      <td><a href="https://toyhou.se/~images/106770249">rayne meowdy</a></td>
+      <td>nov 2025</td>
+      <td><a href="">"love me" fan art</a></td>
       <td>art</td>
-      <td>i got a little too silly</td>
+      <td>great song :&rpar; <a href="https://youtu.be/R6GKsKqsEOU">listen here</a>!</td>
+    </tr>
+    <tr>
+      <td>nov 2025</td>
+      <td><a href="https://www.patreon.com/posts/early-access-art-143778996">persona redesign art</a></td>
+      <td>art</td>
+      <td>not currently available to the general public</td>
+    </tr>
+    <tr>
+      <td>oct 2025</td>
+      <td><a href="https://toyhou.se/~images/109587244">silly costume</a></td>
+      <td>art</td>
+      <td>it's a silly costume</td>
+    </tr>
+    <tr>
+      <td>oct 2025</td>
+      <td><a href="https://toyhou.se/~images/109413323">sunny day</a></td>
+      <td>art</td>
+      <td>very good ar i am proud of it</td>
+    </tr>
+    <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/107965171">the transformation</a></td>
+      <td>art</td>
+      <td>the transformation of hayden and hayley into rayne</td>
+    </tr>
+    <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/107715575">the selfie</a></td>
+      <td>art</td>
+      <td>alternate universe</td>
+    </tr>
+    <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/107550468">sunny</a></td>
+      <td>art</td>
+      <td>alternate universe</td>
+    </tr>
+    <tr>
+      <td>sep 2025</td>
+      <td><a href="https://toyhou.se/~images/107499534">sleeping position</a></td>
+      <td>art</td>
+      <td>wanted to show my sleeping position</td>
     </tr>
     <tr>
       <td>sep 2025</td>
@@ -264,6 +306,18 @@
     </tr>
     <tr>
       <td>apr 2025</td>
+      <td><a href="/writing/Web Development Sonnet">Web Development Sonnet</a></td>
+      <td>writing</td>
+      <td>made for my english class</td>
+    </tr>
+    <tr>
+      <td>apr 2025</td>
+      <td><a href="/writing/scope">scope</a></td>
+      <td>writing</td>
+      <td>about my sturggles with my identity</td>
+    </tr>
+    <tr>
+      <td>apr 2025</td>
       <td><a href="https://stuff.rayne.page/art/2025/rayne.png">rayne</a></td>
       <td>art</td>
       <td>new OC</td>
@@ -291,6 +345,12 @@
       <td><a href="https://github.com/raynecloudy/rAIne">rAIne</a></td>
       <td>software</td>
       <td>a discord bot and language model trained off of my discord messages</td>
+    </tr>
+    <tr>
+      <td>mar 2025</td>
+      <td><a href="/Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age">Necessary Phone Restrictions to Ensure Academic Achievement in the Digital Age</a></td>
+      <td>software</td>
+      <td>made for my english class</td>
     </tr>
     <tr>
       <td>feb 2025</td>
