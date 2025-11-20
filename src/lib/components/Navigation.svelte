@@ -11,4 +11,9 @@
     <li><a href="/things">things</a></li>
     <li><a href="/writing">writing</a></li>
   </ul>
+  <ul>
+    <li><a href="//ai.rayne.page">ai</a></li>
+    <li><a href="https://github.com/raynecloudy/lots-o-nekos">lots-o-nekos</a></li>
+    <li><a href="/nekomide">nekomide</a></li>
+  </ul>
 </nav>

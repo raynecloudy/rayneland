@@ -27,7 +27,6 @@
     --primary: #a4d4bc;
     --text: #ece4ff;
     --outline: 0.0625rem solid #5d4b6d;
-
   }
   
   :global(body) {
