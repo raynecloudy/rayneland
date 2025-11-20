@@ -8,7 +8,7 @@
 
 <h1>donators</h1>
 <p>this page contains a list of people who have donated to me via patreon. i'm super thankful for everybody listed here, it means a lot that you're willing to financially support my work!</p>
-<p>if you want to donate to me, check out my patreon <a href="https://patreon.com/raynecloudy/shop">products</a> and/or <a href="https://patreon.com/raynecloudy/membership">memberships</a> :D</p>
+<p>if you want to donate to me, check out my patreon <a href="https://patreon.com/cw/raynecloudy">products</a> and/or <a href="https://patreon.com/raynecloudy/join">memberships</a> :D</p>
 <ul>
   <li class="rainbow_donator"><a href="https://playfulmathematician.com">bringupyourpost</a></li>
   <li class="rainbow_donator"><a href="https://dumorando.com">dumorando</a></li>
