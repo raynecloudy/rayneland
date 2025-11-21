@@ -94,7 +94,7 @@
       <h3>{Math.floor(distanceToBirthday / (1000 * 60 * 60 * 24))}d {Math.floor((distanceToBirthday % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))}h {Math.floor((distanceToBirthday % (1000 * 60 * 60)) / (1000 * 60))}m {Math.floor((distanceToBirthday % (1000 * 60)) / 1000)}s</h3>
       <DropdownClose />
     </dropdown></sub>
-    <p>hey, i'm rayne! welcome to my website! i'm a teenage software engineer and a sophomore in high school.</p>
+    <p>hey, i'm rayne! welcome to my website! i'm a teenage web developer and a sophomore in high school.</p>
     <p>i've been drawing for 11 years and have been programming for 9. over all these years i've refined my skills, experimented with new hobbies and tools, expressed my creativity through my work, and ended up with a history i'm pretty proud of!</p>
     <p>my hobbies are:</p>
     <ul>
@@ -102,7 +102,6 @@
       <li>drawing</li>
       <li>writing</li>
     </ul>
-    <p>the first programming language i learned was python. then, i learned javascript, and now i know rust and C++ too! i work with web development the most because i love it so much, so i'm most familiar with javascript and typescript.</p>
     <pre style:text-align="center"><code class="primary">
                   -`                 
                  .o+`                
