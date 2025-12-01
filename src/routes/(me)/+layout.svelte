@@ -43,7 +43,7 @@
   }
 
   main {
-    margin: 30vh 10rem 10rem 10rem;
+    margin: 30vh 15vw;
   }
 
   :global(a) {
@@ -70,6 +70,12 @@
 
   :global(:is(a, button):not(:disabled)) {
     cursor: pointer;
+  }
+
+  :global(aside) {
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
   }
 
   :global(.block) {
