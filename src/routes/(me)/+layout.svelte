@@ -74,8 +74,11 @@
 
   :global(aside) {
     position: sticky;
-    top: 2rem;
+    top: 0;
     height: fit-content;
+    max-height: calc(100vh - 4rem);
+    overflow: auto;
+    padding: 2rem;
   }
 
   :global(.block) {
