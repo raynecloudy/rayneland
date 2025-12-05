@@ -7,13 +7,14 @@
 
 <svelte:head>
   <title>projects</title>
-  <meta name="og:description" content="a list of projects i've created over the years">
+  <meta name="og:description" content="a list of software projects i've created over the years">
   <meta name="og:title" content="projects">
   <meta name="og:type" content="website">
   <meta name="og:url" content="https://rayne.page/projects">
 </svelte:head>
 
 <h1>Projects</h1>
+<p>a list of software projects i've created over my time on the internet.</p>
 <h2>Featured</h2>
 <pages class="featured">
   <div class="block" style:--feature="#8cffd144">
