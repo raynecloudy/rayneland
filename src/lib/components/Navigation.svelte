@@ -8,6 +8,7 @@
     <li><a href="/contact">contact</a></li>
     <li><a href="/donators">donators</a></li>
     <li><a href="/race" data-sveltekit-reload>oneko racing</a></li>
+    <li><a href="/projects">projects</a></li>
     <li><a href="/identity">queer identity</a></li>
     <li><a href="/things">things</a></li>
     <li><a href="/writing">writing</a></li>

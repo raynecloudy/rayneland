@@ -6,7 +6,6 @@
 </script>
 
 <style>
-
   div:has(> main) {
     display: flex;
     gap: 4rem;
@@ -15,6 +14,10 @@
   aside {
     width: 15rem;
     flex-shrink: 0;
+  }
+
+  main {
+    flex-grow: 1;
   }
 </style>
 
