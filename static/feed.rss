@@ -1,0 +1,16 @@
+<rss version="2.0">
+  <channel>
+    <title>rayne's feed</title>
+    <description>my feed :3</description>
+    <link>https://rayne.page</link>
+    <item>
+      <title>hello, world!</title>
+      <description>
+        <p>hello, world!! this is the first entry of my new and improved blog/RSS feed on my new website. i'm starting this blog because i honestly find personal blogs really cool and i think it would be a fun way to talk about what i do.</p>
+        <p>i hope i can make some enjoyable posts, and i hope i can post somewhat consistently!</p>
+      </description>
+      <guid>1</guid>
+      <pubDate>Wed 10 Dec 2025, 06:27:00 PST</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+this piece depicts the moment [rayne](/characters/rayne) was materialized. this happens after [hayden](/characters/hayden) and [hayley](/characters/hayley) merge together.
+
+this is definitely one of my more *revealing* drawings heh....
