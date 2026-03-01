@@ -1,4 +1,3 @@
-import { env } from "$env/dynamic/private";
 import { Client, GatewayIntentBits } from "discord.js";
 
 const client = new Client({
@@ -20,7 +19,5 @@ const setStatus = (type: string) => status = {
   type,
   lastUpdated: Date.now()
 };
-
-await client.login(env.DISCORD_TOKEN);
 
 export { client, getStatus, setStatus };
