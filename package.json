@@ -25,7 +25,6 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
-    "discord.js": "^14.25.1",
     "jimp": "^1.6.0",
     "lots-o-nekos": "^3.0.0",
     "marked": "^17.0.1"
