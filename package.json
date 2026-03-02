@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "discord.js": "^14.25.1",
+    "jimp": "^1.6.0",
     "lots-o-nekos": "^3.0.0",
-    "marked": "^17.0.1",
-    "sharp": "^0.34.5"
+    "marked": "^17.0.1"
   }
 }

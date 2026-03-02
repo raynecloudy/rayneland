@@ -1,14 +1,14 @@
+import { Jimp } from "jimp";
 import { readFile } from "node:fs/promises";
 import type { RequestHandler } from "./$types";
-import { join } from "node:path";
-import sharp from "sharp";
-import favicon from "$lib/assets/favicon.png";
 
 export const GET: RequestHandler = async ({ setHeaders }) => {
-  let image = await readFile(favicon);
-  const buffer = await sharp(image).modulate({
-    hue: Math.floor(Math.random() * 360)
-  }).toBuffer();
+  let image = await readFile("./src/lib/assets/favicon.png");
+  const original = await Jimp.fromBuffer(image);
+  const buffer = await original.color([{
+    apply: "hue",
+    params: [Math.random() * 360]
+  }]).getBuffer("image/png");
 
   setHeaders({
     "Cache-Control": "no-cache, no-store, must-revalidate",
