@@ -1,9 +1,9 @@
 import { Jimp } from "jimp";
-import { readFileSync } from "node:fs";
+import { readFile } from "node:fs/promises";
 import type { RequestHandler } from "./$types";
 
 export const GET: RequestHandler = async ({ setHeaders }) => {
-  let image = readFileSync("./src/lib/assets/favicon.png");
+  let image = await readFile("./src/lib/assets/favicon.png");
   const original = await Jimp.fromBuffer(image);
   const buffer = await original.color([{
     apply: "hue",
