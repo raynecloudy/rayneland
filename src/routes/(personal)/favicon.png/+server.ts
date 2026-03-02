@@ -1,10 +1,9 @@
 import { Jimp } from "jimp";
-import { readFile } from "node:fs/promises";
 import type { RequestHandler } from "./$types";
 
 export const GET: RequestHandler = async ({ setHeaders }) => {
-  let image = await readFile("./src/lib/assets/favicon.png");
-  const original = await Jimp.fromBuffer(image);
+  const dataURL = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAxNAAAMTQHSzq1OAAAAeklEQVQ4T2NkwAL+r3n4H1mYMUSeEZs6kBiKBLpGdE3YDIIbQEgzzDB0Q5hwOQ2XOIb3iLUZm4Eg1zBSYgDIUJK9QKqXiVePzSvIYrjYKDZQxRCQiUCDQBglNRLlF3RNhFyE1VCQJpAL8AFi1GB4gyhNhHImWeFCKPAAQMhjoksyRskAAAAASUVORK5CYII=";
+  const original = await Jimp.fromBuffer(Buffer.from(dataURL.split(",")[1], "base64"));
   const buffer = await original.color([{
     apply: "hue",
     params: [Math.random() * 360]
