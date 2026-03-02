@@ -2,9 +2,10 @@ import { readFile } from "node:fs/promises";
 import type { RequestHandler } from "./$types";
 import { join } from "node:path";
 import sharp from "sharp";
+import favicon from "$lib/assets/favicon.png";
 
 export const GET: RequestHandler = async ({ setHeaders }) => {
-  let image = await readFile(join(process.cwd(), "src", "lib", "assets", "favicon.png"));
+  let image = await readFile(favicon);
   const buffer = await sharp(image).modulate({
     hue: Math.floor(Math.random() * 360)
   }).toBuffer();
