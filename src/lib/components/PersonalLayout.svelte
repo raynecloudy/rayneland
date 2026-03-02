@@ -54,10 +54,8 @@
       <li class:highlighted={page.url.pathname === "/contact"}><a href="/contact">contact</a></li>
       <li class:highlighted={page.url.pathname === "/projects"}><a href="/projects">projects</a></li>
       <li><a href="//ai.rayne.page">rAIne</a></li>
+      <li><a href="//smpstats.rayne.page">RWS SMP stats</a></li>
       <li class:highlighted={page.url.pathname === "/writing"}><a href="/writing">writing</a></li>
-    </ul>
-    <ul>
-      <li><a href="//rws.samv.me">RWS SMP stats</a></li>
     </ul>
     <p>local time: {now.toLocaleTimeString("en-US", {
       timeZone: "America/Los_Angeles"
