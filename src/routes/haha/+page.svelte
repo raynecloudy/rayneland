@@ -1,4 +1,6 @@
 <svelte:head>
+  <meta property="og:title" content="haha">
+  <meta property="og:url" content="https://rayne.page/haha">
   <meta property="og:type" content="video.other">
   <meta property="og:image" content="https://rayne.page/media/haha.png">
   <meta property="og:image:width" content="500">
