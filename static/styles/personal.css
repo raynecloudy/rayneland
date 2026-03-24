@@ -34,6 +34,18 @@ body {
   image-rendering: pixelated;
 }
 
+@media screen and (max-width: 45rem) {
+  body {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  body > div > * {
+    width: 100%;
+  }
+}
+
 body::before {
   content: "";
   background-image: radial-gradient(var(--shade4) .0625rem, transparent .0625rem);
