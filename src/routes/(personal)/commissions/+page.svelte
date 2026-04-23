@@ -1,5 +1,5 @@
 <script lang="ts">
-  const open = false;
+  const open = true;
 </script>
 
 <svelte:head>
@@ -42,7 +42,7 @@
 </section>
 <section>
   <h2>process</h2>
-  <p>through email or discord (both linked on my <a href="/contact">contact page</a>), you'll tell me what you want to buy. i charge full price up front. payment is done through paypal. after this is paid, i'll draw a sketch of your request and show it to you and ask for feedback. if you have any feedback, i will modify the sketch according to your feedback and ask you for feedback again. this cycle repeats until you are satisfied. after you are satisfied, the purchase becomes non-refundable and i will begin coloring and drawing your chosen add-ons, if any. i will then send you the completed artwork.</p>
+  <p>through email or discord (both linked on my <a href="/contact">contact page</a>), you'll tell me what you want to buy. i charge full price up front. payment is done through stripe. after this is paid, i'll draw a sketch of your request and show it to you and ask for feedback. if you have any feedback, i will modify the sketch according to your feedback and ask you for feedback again. this cycle repeats until you are satisfied. after you are satisfied, the purchase becomes non-refundable and i will begin coloring and drawing your chosen add-ons, if any. i will then send you the completed artwork.</p>
 </section>
 <section>
   <h2>prices</h2>
