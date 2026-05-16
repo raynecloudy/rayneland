@@ -1,19 +1,27 @@
 <script lang="ts">
-	import { censorGore, censorNudity } from "$lib";
-	import DropdownSection from "$lib/components/DropdownSection.svelte";
-	import { onMount } from "svelte";
-	import { page } from "$app/state";
+  import { censorGore, censorNudity } from "$lib";
+  import { discordAccount, type DiscordAccount } from "$lib/discord";
+  import DropdownSection from "$lib/components/DropdownSection.svelte";
+  import { onMount, type Snippet } from "svelte";
+  import { page } from "$app/state";
+  import type { Types } from "use-lanyard";
 
-  const { children } = $props();
+  const { children, discord }: {
+    children: Snippet,
+    discord: DiscordAccount
+  } = $props();
 
   let now = $state(new Date());
   setInterval(() => now = new Date(), 1000);
 
   let currentlyPlaying: any = $state(null);
 
+  let presence: Types.Presence | null = $state(null);
+
   const heartbeat = async () => {
     const song = await (await fetch("https://lastfm-last-played.biancarosa.com.br/raynecloudy/latest-song")).json();
-    currentlyPlaying = song.track["@attr"].nowplaying === "true" ? song.track : null;
+    if (song.track?.["@attr"]) currentlyPlaying = song.track["@attr"].nowplaying === "true" ? song.track : null;
+    presence = (await (await fetch(`https://api.lanyard.rest/v1/users/${discordAccount}`)).json()).data;
   }
   
   onMount(async () => {
@@ -42,6 +50,19 @@
       <p>hey, it looks like you found a link pointing to <strong>raynec.dev</strong>. that URL is deprecated. if you could do me a favor, contact the owner of the place you got this link from, and tell them to update it to <strong>rayne.page</strong>!</p>
     </section>
   {/if}
+  <section style:--image={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=512)`}>
+    <div id="me" class="flex">
+      <img src={`https://cdn.discordapp.com/avatars/${discord.id}/${discord.avatar}.webp?size=256`} alt="rayne">
+      <div>
+        <h1>Rayne <span class="grey">D.</span></h1>
+        <div class="flex">
+          {#if presence}
+            <div id="presence" class={presence.discord_status}><div></div>{presence.discord_status}</div>
+          {/if}
+        </div>
+      </div>
+    </div>
+  </section>
   {@render children?.()}
 </main>
 <aside>
