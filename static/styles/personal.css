@@ -292,6 +292,10 @@ a.rainbow:not(:hover, :focus-visible) {
   z-index: -2;
 }
 
+main > div:first-child {
+  gap: 0;
+}
+
 section:has(> #me) {
   position: relative;
   background: transparent;
@@ -366,4 +370,15 @@ section:has(> #me)::before {
   height: 0.5rem;
   border-radius: 50%;
   background-color: var(--presence-color);
+}
+
+.doodles {
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+}
+
+.doodles > img {
+  position: absolute;
 }
