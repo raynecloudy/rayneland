@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="/styles/personal.css">
 </svelte:head>
 
-<div style="position: absolute; top: 0; left: 0; z-index: -1; pointer-events: none; width: 100vw; height: 100vh; opacity: 0.8;">
+<div style="position: absolute; top: 0; left: 0; z-index: -1; pointer-events: none; user-select: none; width: 100vw; height: 100vh; opacity: 0.8;">
   <img src="/media/doodles/swirl_left.png" aria-hidden="true" alt="" style="position: absolute; bottom: 2rem; left: 6rem;">
   <img src="/media/doodles/swirl_right.png" aria-hidden="true" alt="" style="position: absolute; top: 5rem; right: 6rem;">
 </div>

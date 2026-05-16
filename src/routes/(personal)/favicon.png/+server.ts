@@ -1,4 +1,4 @@
-import { Jimp } from "jimp";
+import { Jimp } from "../../../../node_modules/jimp/dist/esm/index.js";
 import type { RequestHandler } from "./$types";
 
 export const GET: RequestHandler = async ({ setHeaders }) => {
