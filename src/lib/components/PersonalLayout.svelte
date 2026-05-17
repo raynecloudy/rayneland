@@ -73,7 +73,7 @@
         </div>
       </section>
       {#if currentlyPlaying && presence && presence.spotify}
-        <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightVibrant?.color ?? swatches?.LightMuted?.color ?? swatches?.Vibrant?.color)?.toString()}>
+        <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightMuted?.color ?? swatches?.LightVibrant?.color ?? swatches?.Vibrant?.color)?.toString()}>
           <div>
             <img src={currentlyPlaying.image[2]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget)}>
             <div>
