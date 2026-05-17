@@ -66,7 +66,7 @@
             <h1>Rayne <span class="grey">D.</span></h1>
             <div class="flex">
               {#if presence}
-                <div id="presence" class={presence.discord_status}><div></div>{presence.activities.find((activity) => activity.id === "custom")?.state ?? presence.discord_status}</div>
+                <div id="presence" class={presence.discord_status}><div></div><span>{presence.activities.find((activity) => activity.id === "custom")?.state ?? presence.discord_status}</span></div>
               {/if}
             </div>
           </div>
