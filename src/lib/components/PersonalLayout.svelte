@@ -5,6 +5,7 @@
   import { onMount, type Snippet } from "svelte";
   import { page } from "$app/state";
   import type { Types } from "use-lanyard";
+  import { getPalette, getSwatches, type SwatchMap } from "colorthief";
 
   const { children, discord }: {
     children: Snippet,
@@ -15,6 +16,7 @@
   setInterval(() => now = new Date(), 1000);
 
   let currentlyPlaying: any = $state(null);
+  let swatches: SwatchMap | null = $state(null);
 
   let presence: Types.Presence | null = $state(null);
 
@@ -53,22 +55,39 @@
   <div>
     <div class="doodles">
       <img src="/media/doodles/discord_left.png" aria-hidden="true" alt="" style="top: -1.5rem; left: -2rem;">
-      <img src="/media/doodles/discord_right.png" aria-hidden="true" alt="" style="top: 5.5rem; right: 1.5rem;">
+      <img src="/media/doodles/discord_right.png" aria-hidden="true" alt="" style="top: 7rem; right: 1.3rem;">
       <img src="/media/doodles/side.png" aria-hidden="true" alt="" style="top: 20rem; left: -4.5rem;">
     </div>
-    <section style:--image={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=512)`}>
-      <div id="me" class="flex">
-        <img src={`https://cdn.discordapp.com/avatars/${discord.id}/${discord.avatar}.webp?size=256`} alt="rayne">
-        <div>
-          <h1>Rayne <span class="grey">D.</span></h1>
-          <div class="flex">
-            {#if presence}
-              <div id="presence" class={presence.discord_status}><div></div>{presence.discord_status}</div>
-            {/if}
+    <div style="display: flex; gap: 1.5rem;">
+      <section style:--image={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=512)`}>
+        <div id="me" class="flex">
+          <img src={`https://cdn.discordapp.com/avatars/${discord.id}/${discord.avatar}.webp?size=256`} alt="rayne">
+          <div>
+            <h1>Rayne <span class="grey">D.</span></h1>
+            <div class="flex">
+              {#if presence}
+                <div id="presence" class={presence.discord_status}><div></div>{presence.activities.find((activity) => activity.id === "custom")?.state ?? presence.discord_status}</div>
+              {/if}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      {#if currentlyPlaying && presence && presence.spotify}
+        <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightVibrant?.color ?? swatches?.LightMuted?.color ?? swatches?.Vibrant?.color)?.toString()}>
+          <div>
+            <img src={currentlyPlaying.image[2]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget)}>
+            <div>
+              <sub>listening to</sub>
+              <div><a href={currentlyPlaying.url} title={currentlyPlaying.name}><strong>{currentlyPlaying.name}</strong></a></div>
+              <sub>by {currentlyPlaying.artist["#text"]}</sub>
+            </div>
+          </div>
+          <div>
+            <div style:background-color={(swatches?.LightVibrant?.color ?? swatches?.LightMuted?.color ?? swatches?.Vibrant?.color ?? "#ffffff").toString().concat("75")} style:width={`${(now.getTime() - presence.spotify.timestamps.start) / (presence.spotify.timestamps.end - presence.spotify.timestamps.start) * 100}%`}></div>
+          </div>
+        </section>
+      {/if}
+    </div>
   </div>
   {@render children?.()}
 </main>
@@ -94,21 +113,6 @@
       })}</p>
     </section>
   </div>
-  {#if currentlyPlaying}
-  <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})">
-      <div>
-        <i class="grey">listening to</i>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src={currentlyPlaying.image[1]["#text"]} alt={currentlyPlaying.album["#text"]} style:width="3rem"></td>
-              <td><a href={currentlyPlaying.url}><strong>{currentlyPlaying.name}</strong></a><br><span>by {currentlyPlaying.artist["#text"]}</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  {/if}
   <DropdownSection title="web rating" id="nav-web-rating">
     <p>this website is rated <strong>14+</strong>. adult themes, gory drawings, and drawings featuring censored nudity are present on this site.</p>
     <a href="https://www.mabsland.com/Adoption.html"><img src="/media/adopt_a_censor_14.gif" alt="Web 14"></a>

@@ -274,6 +274,10 @@ a.rainbow:not(:hover, :focus-visible) {
 #music {
   position: relative;
   overflow: hidden;
+  background-color: transparent;
+  backdrop-filter: blur(0.1rem);
+  height: 6rem;
+  display: flex;
 }
 
 #music::before {
@@ -287,9 +291,54 @@ a.rainbow:not(:hover, :focus-visible) {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
-  filter: blur(0.25rem) sepia() hue-rotate(210deg);
+  filter: blur(0.25rem);
   opacity: 0.3;
-  z-index: -2;
+}
+
+#music > * {
+  z-index: 1;
+}
+
+#music > div:first-child {
+  display: flex;
+  flex-shrink: 0;
+  height: 4.5rem;
+  gap: 1rem;
+}
+
+#music > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 0;
+  flex-grow: 1;
+}
+
+#music div:has(> a) {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#music > div:last-child {
+  overflow: hidden;
+  background-color: #ffffff1a;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  flex-shrink: 0;
+}
+
+#music > div:last-child > div {
+  height: 100%;
+  border-radius: 0.2rem;
+  transition: width 1s linear;
+}
+
+#music > div > img {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 1rem;
 }
 
 main > div:first-child {
@@ -319,6 +368,10 @@ section:has(> #me)::before {
 
 #me > * {
   z-index: 1;
+}
+
+#me h1 {
+  font-size: 1.6rem;
 }
 
 #me > img {

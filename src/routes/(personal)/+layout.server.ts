@@ -1,5 +1,6 @@
 import { env } from "$env/dynamic/private";
 import { discordAccount, type DiscordAccount } from "$lib/discord";
+import type { UseLanyardReturn } from "use-lanyard";
 
 export const load = async () => {
   const res = await fetch(`https://discord.com/api/v9/users/${discordAccount}`, {
