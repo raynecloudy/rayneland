@@ -51,7 +51,7 @@
   <img src="/media/doodles/swirl_right.png" aria-hidden="true" alt="" style="position: absolute; top: 5rem; right: 6rem;">
 </div>
 
-<main>
+<main style:--banner={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=1024)`}>
   <div>
     <div class="doodles">
       <img src="/media/doodles/discord_left.png" aria-hidden="true" alt="" style="top: -1.5rem; left: -2rem;">
