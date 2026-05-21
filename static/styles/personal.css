@@ -4,6 +4,12 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Maple Mono";
+  src: url("/fonts/maple_mono.ttf") format("truetype");
+  font-weight: normal;
+}
+
 :root {
   --background: #010102;
   --shade1: #332c3d;
@@ -482,4 +488,18 @@ section:has(> #me)::before {
 
 .doodles > img {
   position: absolute;
+}
+
+#clock {
+  text-align: center;
+  gap: 0rem;
+}
+
+#clock sub {
+  color: var(--shade3);
+}
+
+#clock span {
+  font-family: "Maple Mono";
+  font-size: 1.2rem;
 }

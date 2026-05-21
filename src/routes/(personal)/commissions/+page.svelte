@@ -16,10 +16,11 @@
   <h2>terms of service</h2>
   <p>by commissioning me, you confirm that you have read and agree to these terms.</p>
   <ul>
-    <li>you must be nice!!</li>
-    <li>i still hold copyright of the commissioned artwork.</li>
+    <li>you must be nice!</li>
+    <li>i hold copyright of the commissioned artwork.</li>
     <li>refunds are not available after you've fully paid for the commissioned artwork.</li>
-    <li>you are not allowed to resell the commissioned artwork or use it for commercial purposes.</li>
+    <li>you are not allowed to resell the commissioned artwork.</li>
+    <li>you are not allowed to use artwork for branding purposes unless you talk to me beforehand.</li>
     <li>i reserve the right to refuse service to anyone for any reason.</li>
   </ul>
 </section>
@@ -30,8 +31,6 @@
     <li>toplessness</li>
     <li>fetishes</li>
     <li>suggestive poses/faces/etc.</li>
-    <li>revealing clothing</li>
-    <li>discrimination</li>
     <li>muscles (i just can't, sorry)</li>
     <li>extremely dark art</li>
     <li>anthro</li>

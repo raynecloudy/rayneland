@@ -5,11 +5,11 @@
   import { onMount, type Snippet } from "svelte";
   import { page } from "$app/state";
   import type { Types } from "use-lanyard";
-  import { getPalette, getSwatches, type SwatchMap } from "colorthief";
+  import { getSwatches, type SwatchMap } from "colorthief";
 
   const { children, discord }: {
     children: Snippet,
-    discord: DiscordAccount
+    discord?: DiscordAccount
   } = $props();
 
   let now = $state(new Date());
@@ -51,7 +51,7 @@
   <img src="/media/doodles/swirl_right.png" aria-hidden="true" alt="" style="position: absolute; top: 5rem; right: 6rem;">
 </div>
 
-<main style:--banner={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=1024)`}>
+<main style:--banner={`url(https://cdn.discordapp.com/banners/${discord?.id}/${discord?.banner}.png?size=1024)`}>
   <div>
     <div class="doodles">
       <img src="/media/doodles/discord_left.png" aria-hidden="true" alt="" style="top: -1.5rem; left: -2rem;">
@@ -59,19 +59,21 @@
       <img src="/media/doodles/side.png" aria-hidden="true" alt="" style="top: 20rem; left: -4.5rem;">
     </div>
     <div style="display: flex; gap: 1.5rem;">
-      <section style:--image={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=512)`}>
-        <div id="me" class="flex">
-          <img src={`https://cdn.discordapp.com/avatars/${discord.id}/${discord.avatar}.webp?size=256`} alt="rayne">
-          <div>
-            <h1>Rayne <span class="grey">D.</span></h1>
-            <div class="flex">
-              {#if presence}
-                <div id="presence" class={presence.discord_status}><div></div><span>{presence.activities.find((activity) => activity.id === "custom")?.state ?? presence.discord_status}</span></div>
-              {/if}
+      {#if discord}
+        <section style:--image={`url(https://cdn.discordapp.com/banners/${discord.id}/${discord.banner}.png?size=512)`}>
+          <div id="me" class="flex">
+            <img src={`https://cdn.discordapp.com/avatars/${discord.id}/${discord.avatar}.webp?size=256`} alt="rayne">
+            <div>
+              <h1>Rayne <span class="grey">D.</span></h1>
+              <div class="flex">
+                {#if presence}
+                  <div id="presence" class={presence.discord_status}><div></div><span>{presence.activities.find((activity) => activity.id === "custom")?.state ?? presence.discord_status}</span></div>
+                {/if}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      {/if}
       {#if currentlyPlaying && presence && presence.spotify}
         <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightMuted?.color ?? swatches?.LightVibrant?.color ?? swatches?.Vibrant?.color)?.toString()}>
           <div>
@@ -108,11 +110,16 @@
         <li><a href="//smpstats.rayne.page">RWS SMP stats</a></li>
         <li class:highlighted={page.url.pathname === "/writing"}><a href="/writing">writing</a></li>
       </ul>
-      <p>local time: {now.toLocaleTimeString("en-US", {
-        timeZone: "America/Los_Angeles"
-      })}</p>
     </section>
   </div>
+  <section id="clock">
+    <sub>local time</sub>
+    <span>
+      {now.toLocaleTimeString("en-US", {
+        timeZone: "America/Los_Angeles"
+      }).toLowerCase()}
+    </span>
+  </section>
   <DropdownSection title="web rating" id="nav-web-rating">
     <p>this website is rated <strong>14+</strong>. adult themes, gory drawings, and drawings featuring censored nudity are present on this site.</p>
     <a href="https://www.mabsland.com/Adoption.html"><img src="/media/adopt_a_censor_14.gif" alt="Web 14"></a>
